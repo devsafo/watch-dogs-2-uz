@@ -14,6 +14,8 @@ logger = logging.getLogger("translator")
 DEFAULT_BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/")
 DEFAULT_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
 SERVICE_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_URL", "https://watch-dogs-2-uz-translator.onrender.com").rstrip("/")
+ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "admin")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "dedsec2026")
 
 # Keys can be specified as DEEPSEEK_API_KEYS="key1,key2,key3,key4,key5"
 # or individual DEEPSEEK_API_KEY_1..5 or single DEEPSEEK_API_KEY
@@ -122,7 +124,8 @@ class TranslationManager:
                 await asyncio.sleep(420) # 7 daqiqa
                 if not self.is_running:
                     break
-                async with aiohttp.ClientSession() as session:
+                auth = aiohttp.BasicAuth(ADMIN_USERNAME, ADMIN_PASSWORD)
+                async with aiohttp.ClientSession(auth=auth) as session:
                     async with session.get(ping_url, timeout=aiohttp.ClientTimeout(total=20)) as resp:
                         logger.info(f"Keep-alive self-ping yuborildi: HTTP {resp.status}")
             except Exception as e:

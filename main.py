@@ -3,11 +3,13 @@ import io
 import json
 import asyncio
 import logging
+import secrets
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, Request, BackgroundTasks
+from fastapi import FastAPI, Request, BackgroundTasks, Depends, HTTPException, status
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from pydantic import BaseModel
 from typing import Optional
 
@@ -19,6 +21,30 @@ logger = logging.getLogger("main")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
+
+ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "admin")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "dedsec2026")
+
+security = HTTPBasic()
+
+def authenticate(credentials: HTTPBasicCredentials = Depends(security)):
+    current_username_bytes = credentials.username.encode("utf8")
+    correct_username_bytes = ADMIN_USERNAME.encode("utf8")
+    is_correct_username = secrets.compare_digest(
+        current_username_bytes, correct_username_bytes
+    )
+    current_password_bytes = credentials.password.encode("utf8")
+    correct_password_bytes = ADMIN_PASSWORD.encode("utf8")
+    is_correct_password = secrets.compare_digest(
+        current_password_bytes, correct_password_bytes
+    )
+    if not (is_correct_username and is_correct_password):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Noto'g'ri login yoki parol!",
+            headers={"WWW-Authenticate": "Basic"},
+        )
+    return credentials.username
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -42,7 +68,7 @@ async def lifespan(app: FastAPI):
     # Shutdown
     await manager.stop(is_user_action=False)
 
-app = FastAPI(title="Watch Dogs 2 Uzbek Translator", lifespan=lifespan)
+app = FastAPI(title="Watch Dogs 2 Uzbek Translator", lifespan=lifespan, dependencies=[Depends(authenticate)])
 
 os.makedirs(TEMPLATES_DIR, exist_ok=True)
 templates = Jinja2Templates(directory=TEMPLATES_DIR)
