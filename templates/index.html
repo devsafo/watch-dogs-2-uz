@@ -23,6 +23,10 @@
     body { background-color: #080b11; color: #e2e8f0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     .glitch-border { box-shadow: 0 0 15px rgba(0, 240, 255, 0.15); border: 1px solid rgba(0, 240, 255, 0.25); }
     .neon-text { text-shadow: 0 0 8px rgba(0, 240, 255, 0.6); }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.2); }
+    ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #00f0ff; }
   </style>
 </head>
 <body class="min-h-screen p-4 md:p-8">
@@ -105,24 +109,24 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       
       <!-- Category breakdown -->
-      <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800 space-y-4">
-        <h2 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+      <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800 space-y-4 flex flex-col" style="height: 400px; max-height: 400px;">
+        <h2 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2 shrink-0">
           <i class="fa-solid fa-layer-group text-brand-500"></i> Toifalar Bo'yicha
         </h2>
-        <div id="category-list" class="space-y-3 max-h-[360px] overflow-y-auto pr-1">
+        <div id="category-list" class="flex-1 min-h-0 space-y-3 overflow-y-auto pr-1">
           <!-- Populated by JS -->
         </div>
       </div>
 
       <!-- Realtime Worker Logs -->
-      <div class="lg:col-span-2 p-5 bg-dedsec-card rounded-xl border border-slate-800 space-y-4 flex flex-col">
-        <div class="flex items-center justify-between">
+      <div class="lg:col-span-2 p-5 bg-dedsec-card rounded-xl border border-slate-800 space-y-4 flex flex-col" style="height: 400px; max-height: 400px;">
+        <div class="flex items-center justify-between shrink-0">
           <h2 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
             <i class="fa-solid fa-microchip text-emerald-400"></i> 5 Worker Jonli Loglari
           </h2>
           <span id="status-badge" class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-800 text-slate-400">To'xtatilgan</span>
         </div>
-        <div id="log-box" class="flex-1 bg-black/60 rounded-xl p-4 font-mono text-xs text-slate-300 space-y-1 h-[320px] overflow-y-auto border border-slate-800/80">
+        <div id="log-box" class="flex-1 min-h-0 bg-black/60 rounded-xl p-4 font-mono text-xs text-slate-300 space-y-1 overflow-y-auto border border-slate-800/80 break-words">
           <div class="text-slate-500">Tizim tayyor. Test yoki To'liq tarjimani boshlang...</div>
         </div>
       </div>
