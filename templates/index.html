@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="uz" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Dogs 2 — O'zbek Tili Tarjima Paneli (DeepSeek AI)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: { 500: '#00f0ff', 600: '#00c8d7', 700: '#009bb3' },
+            dedsec: { yellow: '#ffe600', dark: '#0a0d14', card: '#121824' }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { background-color: #080b11; color: #e2e8f0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .glitch-border { box-shadow: 0 0 15px rgba(0, 240, 255, 0.15); border: 1px solid rgba(0, 240, 255, 0.25); }
+    .neon-text { text-shadow: 0 0 8px rgba(0, 240, 255, 0.6); }
+  </style>
+</head>
+<body class="min-h-screen p-4 md:p-8">
+  <div class="max-w-7xl mx-auto space-y-6">
+    
+    <!-- Header -->
+    <header class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 p-6 bg-dedsec-card rounded-2xl glitch-border">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/40 flex items-center justify-center text-brand-500 text-2xl">
+          <i class="fa-solid fa-terminal"></i>
+        </div>
+        <div>
+          <h1 class="text-2xl font-black tracking-wider text-white flex items-center gap-2">
+            WATCH DOGS 2 <span class="text-brand-500 text-sm font-bold border border-brand-500/50 px-2 py-0.5 rounded">UZB LOCALIZER</span>
+          </h1>
+          <p class="text-xs text-slate-400 mt-1">Neon PostgreSQL & 5 Parallel DeepSeek AI Workers</p>
+        </div>
+      </div>
+      
+      <!-- Action Controls -->
+      <div class="flex flex-wrap items-center gap-3">
+        <button onclick="startWorkers('test', 50)" class="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-xl text-sm flex items-center gap-2 transition shadow-lg shadow-emerald-900/30">
+          <i class="fa-solid fa-flask"></i> Test (50 ta)
+        </button>
+        <button onclick="startWorkers('full', 0)" class="px-4 py-2.5 bg-brand-600 hover:bg-brand-500 text-slate-900 font-bold rounded-xl text-sm flex items-center gap-2 transition shadow-lg shadow-cyan-900/30">
+          <i class="fa-solid fa-play"></i> To'liq Boshlash
+        </button>
+        <button onclick="stopWorkers()" class="px-4 py-2.5 bg-rose-600/80 hover:bg-rose-600 text-white font-semibold rounded-xl text-sm flex items-center gap-2 transition">
+          <i class="fa-solid fa-pause"></i> To'xtatish
+        </button>
+        <button onclick="openSettingsModal()" class="px-3.5 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-sm border border-slate-700">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Stats Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800">
+        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Jami Matnlar</div>
+        <div id="stat-total" class="text-2xl font-black text-white mt-1">48,142</div>
+        <div class="text-xs text-slate-500 mt-1">100% o'yin fayllari</div>
+      </div>
+      <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800">
+        <div class="text-xs font-semibold text-emerald-400 uppercase tracking-wider">Tarjima Qilindi</div>
+        <div id="stat-completed" class="text-2xl font-black text-emerald-400 mt-1">0</div>
+        <div id="stat-percent" class="text-xs text-emerald-500/80 mt-1">0.0% bajarildi</div>
+      </div>
+      <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800">
+        <div class="text-xs font-semibold text-amber-400 uppercase tracking-wider">Kutilmoqda</div>
+        <div id="stat-pending" class="text-2xl font-black text-amber-400 mt-1">48,142</div>
+        <div class="text-xs text-slate-500 mt-1">navbatda</div>
+      </div>
+      <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800">
+        <div class="text-xs font-semibold text-cyan-400 uppercase tracking-wider">Jarayonda</div>
+        <div id="stat-inprogress" class="text-2xl font-black text-cyan-400 mt-1">0</div>
+        <div class="text-xs text-slate-500 mt-1">5 worker ishlamoqda</div>
+      </div>
+      <div class="col-span-2 md:col-span-1 p-5 bg-dedsec-card rounded-xl border border-slate-800">
+        <div class="text-xs font-semibold text-purple-400 uppercase tracking-wider">Eksport</div>
+        <div class="flex items-center gap-2 mt-2">
+          <a href="/api/export/json" class="flex-1 text-center py-1.5 px-2 bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-400 rounded-lg border border-slate-700">JSON</a>
+          <a href="/api/export/loc" class="flex-1 text-center py-1.5 px-2 bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-400 rounded-lg border border-slate-700">.LOC</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overall Progress Bar -->
+    <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800 space-y-2">
+      <div class="flex justify-between text-xs font-bold text-slate-300">
+        <span>Umumiy Tarjima Jarayoni</span>
+        <span id="bar-text">0 / 48,142 (0.0%)</span>
+      </div>
+      <div class="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
+        <div id="progress-bar" class="bg-gradient-to-r from-brand-600 to-emerald-500 h-full transition-all duration-500" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Main Grid: Logs & Categories -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      
+      <!-- Category breakdown -->
+      <div class="p-5 bg-dedsec-card rounded-xl border border-slate-800 space-y-4">
+        <h2 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+          <i class="fa-solid fa-layer-group text-brand-500"></i> Toifalar Bo'yicha
+        </h2>
+        <div id="category-list" class="space-y-3 max-h-[360px] overflow-y-auto pr-1">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Realtime Worker Logs -->
+      <div class="lg:col-span-2 p-5 bg-dedsec-card rounded-xl border border-slate-800 space-y-4 flex flex-col">
+        <div class="flex items-center justify-between">
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+            <i class="fa-solid fa-microchip text-emerald-400"></i> 5 Worker Jonli Loglari
+          </h2>
+          <span id="status-badge" class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-800 text-slate-400">To'xtatilgan</span>
+        </div>
+        <div id="log-box" class="flex-1 bg-black/60 rounded-xl p-4 font-mono text-xs text-slate-300 space-y-1 h-[320px] overflow-y-auto border border-slate-800/80">
+          <div class="text-slate-500">Tizim tayyor. Test yoki To'liq tarjimani boshlang...</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Translations Preview Table -->
+    <div class="p-6 bg-dedsec-card rounded-xl border border-slate-800 space-y-4">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+        <h2 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+          <i class="fa-solid fa-list-check text-brand-500"></i> Oxirgi Matnlar Ko'rinishi
+        </h2>
+        <div class="flex items-center gap-2">
+          <select id="filter-status" onchange="fetchTranslations()" class="bg-slate-800 text-xs text-slate-300 rounded-lg px-3 py-1.5 border border-slate-700">
+            <option value="">Barchasi</option>
+            <option value="completed">Faqat Tarjima Qilinganlar</option>
+            <option value="pending">Kutilayotganlar</option>
+            <option value="in_progress">Jarayondagilar</option>
+          </select>
+          <button onclick="fetchTranslations()" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 rounded-lg border border-slate-700">
+            <i class="fa-solid fa-rotate"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs text-slate-300">
+          <thead class="bg-slate-800/50 text-slate-400 uppercase text-[10px]">
+            <tr>
+              <th class="p-2.5">ID</th>
+              <th class="p-2.5">Toifa</th>
+              <th class="p-2.5 w-5/12">Ruscha Matn</th>
+              <th class="p-2.5 w-5/12">O'zbekcha Tarjima</th>
+              <th class="p-2.5">Holat</th>
+            </tr>
+          </thead>
+          <tbody id="translations-table" class="divide-y divide-slate-800">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
+    <div class="bg-dedsec-card border border-slate-700 rounded-2xl max-w-md w-full p-6 space-y-4">
+      <div class="flex items-center justify-between">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-key text-brand-500"></i> API Sozlamalari
+        </h3>
+        <button onclick="closeSettingsModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="space-y-3 text-xs">
+        <div>
+          <label class="block text-slate-400 mb-1">DeepSeek API Kaliti (yoki vergul bilan 5 ta kalit):</label>
+          <input id="setting-api-key" type="password" placeholder="sk-..." class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white">
+        </div>
+        <div>
+          <label class="block text-slate-400 mb-1">Model Nomi:</label>
+          <input id="setting-model" type="text" value="deepseek-chat" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white">
+        </div>
+        <div>
+          <label class="block text-slate-400 mb-1">Base URL:</label>
+          <input id="setting-base-url" type="text" value="https://api.deepseek.com" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white">
+        </div>
+      </div>
+      <div class="flex justify-end gap-2 pt-2">
+        <button onclick="closeSettingsModal()" class="px-4 py-2 bg-slate-800 text-slate-300 rounded-lg text-xs">Bekor qilish</button>
+        <button onclick="saveSettings()" class="px-4 py-2 bg-brand-600 hover:bg-brand-500 font-bold text-slate-900 rounded-lg text-xs">Saqlash</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function updateStats() {
+      try {
+        const res = await fetch('/api/stats');
+        const d = await res.json();
+        
+        document.getElementById('stat-total').innerText = d.total.toLocaleString();
+        document.getElementById('stat-completed').innerText = d.completed.toLocaleString();
+        document.getElementById('stat-pending').innerText = d.pending.toLocaleString();
+        document.getElementById('stat-inprogress').innerText = d.in_progress.toLocaleString();
+        document.getElementById('stat-percent').innerText = d.progress_percent + '% bajarildi';
+        
+        document.getElementById('bar-text').innerText = `${d.completed.toLocaleString()} / ${d.total.toLocaleString()} (${d.progress_percent}%)`;
+        document.getElementById('progress-bar').style.width = d.progress_percent + '%';
+
+        const badge = document.getElementById('status-badge');
+        if (d.is_running) {
+          badge.className = "px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-900/60 text-emerald-400 border border-emerald-500/40 animate-pulse";
+          badge.innerText = `Ishlamoqda (${d.mode.toUpperCase()})`;
+        } else {
+          badge.className = "px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-800 text-slate-400";
+          badge.innerText = "To'xtatilgan";
+        }
+
+        // Render categories
+        if (d.categories) {
+          const list = document.getElementById('category-list');
+          list.innerHTML = d.categories.map(c => `
+            <div class="space-y-1">
+              <div class="flex justify-between text-[11px]">
+                <span class="text-slate-300 truncate max-w-[180px]">${c.category}</span>
+                <span class="text-slate-400">${c.completed}/${c.total} (${c.percent}%)</span>
+              </div>
+              <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                <div class="bg-brand-500 h-full" style="width: ${c.percent}%"></div>
+              </div>
+            </div>
+          `).join('');
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    async function updateLogs() {
+      try {
+        const res = await fetch('/api/logs');
+        const d = await res.json();
+        const box = document.getElementById('log-box');
+        if (d.logs && d.logs.length > 0) {
+          box.innerHTML = d.logs.map(l => `<div>${l}</div>`).join('');
+          box.scrollTop = box.scrollHeight;
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    async function fetchTranslations() {
+      try {
+        const st = document.getElementById('filter-status').value;
+        const res = await fetch(`/api/translations?limit=20&status=${st}`);
+        const list = await res.json();
+        const tbody = document.getElementById('translations-table');
+        if (list.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="5" class="p-4 text-center text-slate-500">Matnlar mavjud emas</td></tr>';
+          return;
+        }
+        tbody.innerHTML = list.map(item => `
+          <tr class="hover:bg-slate-800/40 transition">
+            <td class="p-2.5 font-mono text-slate-400">${item.id}</td>
+            <td class="p-2.5 text-slate-400 text-[11px]">${item.category}</td>
+            <td class="p-2.5 text-slate-300">${escapeHtml(item.ru)}</td>
+            <td class="p-2.5 ${item.uz ? 'text-emerald-400 font-medium' : 'text-slate-500 italic'}">${item.uz ? escapeHtml(item.uz) : '—'}</td>
+            <td class="p-2.5">
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold ${
+                item.status === 'completed' ? 'bg-emerald-950 text-emerald-400 border border-emerald-800' :
+                item.status === 'in_progress' ? 'bg-cyan-950 text-cyan-400 border border-cyan-800' :
+                item.status === 'failed' ? 'bg-rose-950 text-rose-400 border border-rose-800' :
+                'bg-slate-800 text-slate-400'
+              }">${item.status}</span>
+            </td>
+          </tr>
+        `).join('');
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    async function startWorkers(mode, limit) {
+      await fetch('/api/start', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ mode: mode, limit: limit })
+      });
+      updateStats();
+      updateLogs();
+    }
+
+    async function stopWorkers() {
+      await fetch('/api/stop', { method: 'POST' });
+      updateStats();
+      updateLogs();
+    }
+
+    function openSettingsModal() {
+      document.getElementById('settings-modal').classList.remove('hidden');
+      document.getElementById('settings-modal').classList.add('flex');
+    }
+
+    function closeSettingsModal() {
+      document.getElementById('settings-modal').classList.add('hidden');
+      document.getElementById('settings-modal').classList.remove('flex');
+    }
+
+    async function saveSettings() {
+      const apiKey = document.getElementById('setting-api-key').value;
+      const model = document.getElementById('setting-model').value;
+      const baseUrl = document.getElementById('setting-base-url').value;
+      
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          deepseek_api_key: apiKey,
+          deepseek_model: model,
+          deepseek_base_url: baseUrl
+        })
+      });
+      closeSettingsModal();
+      alert("Sozlamalar saqlandi!");
+    }
+
+    // Polling intervals
+    updateStats();
+    updateLogs();
+    fetchTranslations();
+    setInterval(updateStats, 3000);
+    setInterval(updateLogs, 2000);
+  </script>
+</body>
+</html>

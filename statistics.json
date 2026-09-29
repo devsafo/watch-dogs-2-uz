@@ -1,0 +1,47 @@
+{
+  "game": "Watch Dogs 2 (PC / Steam)",
+  "source_archive": "patch2.dat / patch.dat / common.dat (languages/main_russian.loc)",
+  "total_strings": 48142,
+  "categories": {
+    "story_and_cutscenes": {
+      "name_uz": "Asosiy hikoya va subtitrlar (Story Cutscenes & Subtitles)",
+      "count": 26944,
+      "file": "categories/story_and_cutscenes.json"
+    },
+    "phone_and_audio_logs": {
+      "name_uz": "Telefon xabarlari, DedSec chat va audioyozuvlar (Phone & Audio Logs)",
+      "count": 5606,
+      "file": "categories/phone_and_audio_logs.json"
+    },
+    "notifications_and_world": {
+      "name_uz": "O'yin bildirishnomalari va xakerlik maslahatlari (Notifications & Hints)",
+      "count": 5390,
+      "file": "categories/notifications_and_world.json"
+    },
+    "ambient_dialogues": {
+      "name_uz": "Shahar aholisi va ko'cha suhbatlari (Pedestrian & Ambient Dialogues)",
+      "count": 4619,
+      "file": "categories/ambient_dialogues.json"
+    },
+    "ui_and_menus": {
+      "name_uz": "Menyu, sozlamalar, boshqaruv va interfeys (UI & Menus)",
+      "count": 3577,
+      "file": "categories/ui_and_menus.json"
+    },
+    "missions_and_objectives": {
+      "name_uz": "Missiya nomlari va topshiriq maqsadlari (Missions & Objectives)",
+      "count": 1425,
+      "file": "categories/missions_and_objectives.json"
+    },
+    "items_weapons_vehicles": {
+      "name_uz": "Qurollar, kiyimlar, transport va jihozlar (Items, Weapons & Vehicles)",
+      "count": 520,
+      "file": "categories/items_weapons_vehicles.json"
+    },
+    "multiplayer_and_extra": {
+      "name_uz": "Ko'p o'yinchili rejim va qo'shimchalar (Multiplayer & Extras)",
+      "count": 61,
+      "file": "categories/multiplayer_and_extra.json"
+    }
+  }
+}

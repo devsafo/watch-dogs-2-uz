@@ -1,0 +1,3122 @@
+[
+  {
+    "id": 105534,
+    "category": "items_weapons_vehicles",
+    "ru": "ACR",
+    "uz": ""
+  },
+  {
+    "id": 105535,
+    "category": "items_weapons_vehicles",
+    "ru": "Автоматическая винтовка",
+    "uz": ""
+  },
+  {
+    "id": 105536,
+    "category": "items_weapons_vehicles",
+    "ru": "ACR - американская винтовка, продукт новейших технологий. Останавливающее действие пуль высокое, проникающая способность - средняя. А вот скорострельность - низкая.",
+    "uz": ""
+  },
+  {
+    "id": 105537,
+    "category": "items_weapons_vehicles",
+    "ru": "416",
+    "uz": ""
+  },
+  {
+    "id": 105539,
+    "category": "items_weapons_vehicles",
+    "ru": "Автоматическая винтовка",
+    "uz": ""
+  },
+  {
+    "id": 105540,
+    "category": "items_weapons_vehicles",
+    "ru": "416 - превосходная немецкая штурмовая винтовка. Весомый аргумент в дальнем бою.",
+    "uz": ""
+  },
+  {
+    "id": 105541,
+    "category": "items_weapons_vehicles",
+    "ru": "P-9мм",
+    "uz": ""
+  },
+  {
+    "id": 105542,
+    "category": "items_weapons_vehicles",
+    "ru": "Полуавтоматический пистолет",
+    "uz": ""
+  },
+  {
+    "id": 105545,
+    "category": "items_weapons_vehicles",
+    "ru": "Австрийский полуавтоматический пистолет без ярких особенностей. Часто применяется как полицией, так и преступниками. Простой и недорогой.",
+    "uz": ""
+  },
+  {
+    "id": 105550,
+    "category": "items_weapons_vehicles",
+    "ru": "1911",
+    "uz": ""
+  },
+  {
+    "id": 105554,
+    "category": "items_weapons_vehicles",
+    "ru": "Полуавтоматический пистолет",
+    "uz": ""
+  },
+  {
+    "id": 105555,
+    "category": "items_weapons_vehicles",
+    "ru": "1911 - универсальный пистолет, некогда востребованный в армии США. Приличное останавливающее действие пули на короткой дистанции.",
+    "uz": ""
+  },
+  {
+    "id": 105556,
+    "category": "items_weapons_vehicles",
+    "ru": "MP-9мм",
+    "uz": ""
+  },
+  {
+    "id": 105567,
+    "category": "items_weapons_vehicles",
+    "ru": "Пистолет-пулемет",
+    "uz": ""
+  },
+  {
+    "id": 105568,
+    "category": "items_weapons_vehicles",
+    "ru": "MP-9мм - компактный пистолет-пулемет. Скорость стрельбы невысокая, но сражает наповал.",
+    "uz": ""
+  },
+  {
+    "id": 105569,
+    "category": "items_weapons_vehicles",
+    "ru": "AC-AR",
+    "uz": ""
+  },
+  {
+    "id": 105570,
+    "category": "items_weapons_vehicles",
+    "ru": "Скорострельная снайперская винтовка",
+    "uz": ""
+  },
+  {
+    "id": 105571,
+    "category": "items_weapons_vehicles",
+    "ru": "AC-AR - выбор метких стрелков. Благодаря определенным модификациям используется как снайперская винтовка. Проникающая способность пуль низкая.",
+    "uz": ""
+  },
+  {
+    "id": 105572,
+    "category": "items_weapons_vehicles",
+    "ru": "G106",
+    "uz": ""
+  },
+  {
+    "id": 105573,
+    "category": "items_weapons_vehicles",
+    "ru": "Однозарядный гранатомет",
+    "uz": ""
+  },
+  {
+    "id": 105574,
+    "category": "items_weapons_vehicles",
+    "ru": "G106 - мощный однозарядный гранатомет. Уничтожит любую преграду на вашем пути.",
+    "uz": ""
+  },
+  {
+    "id": 105743,
+    "category": "items_weapons_vehicles",
+    "ru": "GL-94",
+    "uz": ""
+  },
+  {
+    "id": 105744,
+    "category": "items_weapons_vehicles",
+    "ru": "Помповый гранатомет",
+    "uz": ""
+  },
+  {
+    "id": 105745,
+    "category": "items_weapons_vehicles",
+    "ru": "GL-94 - российский помповый гранатомет. На короткой дистанции уничтожит что угодно.",
+    "uz": ""
+  },
+  {
+    "id": 105772,
+    "category": "items_weapons_vehicles",
+    "ru": "R-33",
+    "uz": ""
+  },
+  {
+    "id": 105774,
+    "category": "items_weapons_vehicles",
+    "ru": "Мини-ПП",
+    "uz": ""
+  },
+  {
+    "id": 105775,
+    "category": "items_weapons_vehicles",
+    "ru": "R-33 - мини-ПП из России. Необычной формы. Прост в обращении. Минимальная отдача.",
+    "uz": ""
+  },
+  {
+    "id": 106141,
+    "category": "items_weapons_vehicles",
+    "ru": "Бардачок обыскан: [#VALUE]",
+    "uz": ""
+  },
+  {
+    "id": 106175,
+    "category": "items_weapons_vehicles",
+    "ru": "Магазин закрыт",
+    "uz": ""
+  },
+  {
+    "id": 107521,
+    "category": "items_weapons_vehicles",
+    "ru": "ACR",
+    "uz": ""
+  },
+  {
+    "id": 107522,
+    "category": "items_weapons_vehicles",
+    "ru": "416",
+    "uz": ""
+  },
+  {
+    "id": 107523,
+    "category": "items_weapons_vehicles",
+    "ru": "P-9MM",
+    "uz": ""
+  },
+  {
+    "id": 107524,
+    "category": "items_weapons_vehicles",
+    "ru": "MP-9MM",
+    "uz": ""
+  },
+  {
+    "id": 107525,
+    "category": "items_weapons_vehicles",
+    "ru": "G106",
+    "uz": ""
+  },
+  {
+    "id": 107526,
+    "category": "items_weapons_vehicles",
+    "ru": "AC-AR",
+    "uz": ""
+  },
+  {
+    "id": 107527,
+    "category": "items_weapons_vehicles",
+    "ru": "GL-94",
+    "uz": ""
+  },
+  {
+    "id": 107669,
+    "category": "items_weapons_vehicles",
+    "ru": "1911",
+    "uz": ""
+  },
+  {
+    "id": 107837,
+    "category": "items_weapons_vehicles",
+    "ru": "Все",
+    "uz": ""
+  },
+  {
+    "id": 111014,
+    "category": "items_weapons_vehicles",
+    "ru": "Магазин одежды",
+    "uz": ""
+  },
+  {
+    "id": 111151,
+    "category": "items_weapons_vehicles",
+    "ru": "ВЗЛОМ СМАРТФОНА",
+    "uz": ""
+  },
+  {
+    "id": 112927,
+    "category": "items_weapons_vehicles",
+    "ru": "GL-94 С ЛИПУЧКАМИ",
+    "uz": ""
+  },
+  {
+    "id": 112928,
+    "category": "items_weapons_vehicles",
+    "ru": "G106 С ЛИПУЧКАМИ",
+    "uz": ""
+  },
+  {
+    "id": 114232,
+    "category": "items_weapons_vehicles",
+    "ru": "Разблокировать центр управления ctOS",
+    "uz": ""
+  },
+  {
+    "id": 114263,
+    "category": "items_weapons_vehicles",
+    "ru": "R-33",
+    "uz": ""
+  },
+  {
+    "id": 116186,
+    "category": "items_weapons_vehicles",
+    "ru": "Следите за подозреваемым",
+    "uz": ""
+  },
+  {
+    "id": 120504,
+    "category": "items_weapons_vehicles",
+    "ru": "M1 SMG",
+    "uz": ""
+  },
+  {
+    "id": 127194,
+    "category": "items_weapons_vehicles",
+    "ru": "\"Гоблин\"",
+    "uz": ""
+  },
+  {
+    "id": 127195,
+    "category": "items_weapons_vehicles",
+    "ru": "\"Гоблин\"",
+    "uz": ""
+  },
+  {
+    "id": 127196,
+    "category": "items_weapons_vehicles",
+    "ru": "Штурмовая винтовка",
+    "uz": ""
+  },
+  {
+    "id": 127197,
+    "category": "items_weapons_vehicles",
+    "ru": "\"Гоблин\" - штурмовая винтовка убийственной мощности. Удобна в обращении, магазин большой емкости.",
+    "uz": ""
+  },
+  {
+    "id": 127199,
+    "category": "items_weapons_vehicles",
+    "ru": "Враг убит",
+    "uz": ""
+  },
+  {
+    "id": 127200,
+    "category": "items_weapons_vehicles",
+    "ru": "Выстрел в голову",
+    "uz": ""
+  },
+  {
+    "id": 127201,
+    "category": "items_weapons_vehicles",
+    "ru": "Рукопашный прием",
+    "uz": ""
+  },
+  {
+    "id": 127202,
+    "category": "items_weapons_vehicles",
+    "ru": "Выстрел в ногу",
+    "uz": ""
+  },
+  {
+    "id": 128814,
+    "category": "items_weapons_vehicles",
+    "ru": "Пусто",
+    "uz": ""
+  },
+  {
+    "id": 131742,
+    "category": "items_weapons_vehicles",
+    "ru": "PVP: рядом идет хакерская атака",
+    "uz": ""
+  },
+  {
+    "id": 131758,
+    "category": "items_weapons_vehicles",
+    "ru": "Задание выполнено",
+    "uz": ""
+  },
+  {
+    "id": 132264,
+    "category": "items_weapons_vehicles",
+    "ru": "ИЗВЛЕЧЕНИЕ ДАННЫХ",
+    "uz": ""
+  },
+  {
+    "id": 133430,
+    "category": "items_weapons_vehicles",
+    "ru": "РАССЛЕДОВАТЬ",
+    "uz": ""
+  },
+  {
+    "id": 137197,
+    "category": "items_weapons_vehicles",
+    "ru": "Хакерская атака",
+    "uz": ""
+  },
+  {
+    "id": 138009,
+    "category": "items_weapons_vehicles",
+    "ru": "Цель задания",
+    "uz": ""
+  },
+  {
+    "id": 138010,
+    "category": "items_weapons_vehicles",
+    "ru": "Одна из целей текущего задания",
+    "uz": ""
+  },
+  {
+    "id": 138011,
+    "category": "items_weapons_vehicles",
+    "ru": "Взлом: выполнить эту задачу",
+    "uz": ""
+  },
+  {
+    "id": 138280,
+    "category": "items_weapons_vehicles",
+    "ru": "R-2000",
+    "uz": ""
+  },
+  {
+    "id": 138281,
+    "category": "items_weapons_vehicles",
+    "ru": "Пистолет-пулемет",
+    "uz": ""
+  },
+  {
+    "id": 138282,
+    "category": "items_weapons_vehicles",
+    "ru": "R-2000 - российский пистолет-пулемет. Создан для подавления беспорядков. Мощный, удобный, со средней отдачей. Незаменим в ближнем бою.",
+    "uz": ""
+  },
+  {
+    "id": 138283,
+    "category": "items_weapons_vehicles",
+    "ru": "M8-M",
+    "uz": ""
+  },
+  {
+    "id": 138284,
+    "category": "items_weapons_vehicles",
+    "ru": "Полуавтоматический револьвер",
+    "uz": ""
+  },
+  {
+    "id": 138285,
+    "category": "items_weapons_vehicles",
+    "ru": "M8-M - итальянский револьвер. Новейший дизайн, высокая убойная сила. Требует определенного мастерства в обращении.",
+    "uz": ""
+  },
+  {
+    "id": 139286,
+    "category": "items_weapons_vehicles",
+    "ru": "OCP-11",
+    "uz": ""
+  },
+  {
+    "id": 139287,
+    "category": "items_weapons_vehicles",
+    "ru": "Автоматическая винтовка",
+    "uz": ""
+  },
+  {
+    "id": 139288,
+    "category": "items_weapons_vehicles",
+    "ru": "OCP-11 - небольшая штурмовая винтовка, стреляет патронами крупного калибра. Убойная сила высокая, но из-за сильной отдачи точность страдает.",
+    "uz": ""
+  },
+  {
+    "id": 139343,
+    "category": "items_weapons_vehicles",
+    "ru": "OCP-11",
+    "uz": ""
+  },
+  {
+    "id": 139584,
+    "category": "items_weapons_vehicles",
+    "ru": "Игрок [#PLAYER] устроил блэкаут",
+    "uz": ""
+  },
+  {
+    "id": 139585,
+    "category": "items_weapons_vehicles",
+    "ru": "Игрок [#PLAYER] создал помехи",
+    "uz": ""
+  },
+  {
+    "id": 139586,
+    "category": "items_weapons_vehicles",
+    "ru": "Игрок [#PLAYER] создал помехи",
+    "uz": ""
+  },
+  {
+    "id": 139694,
+    "category": "items_weapons_vehicles",
+    "ru": "M8-M",
+    "uz": ""
+  },
+  {
+    "id": 143722,
+    "category": "items_weapons_vehicles",
+    "ru": "Эх, жаль выходные кончились. Круто было!",
+    "uz": ""
+  },
+  {
+    "id": 143723,
+    "category": "items_weapons_vehicles",
+    "ru": "Найди уже себе кого-нибудь",
+    "uz": ""
+  },
+  {
+    "id": 143737,
+    "category": "items_weapons_vehicles",
+    "ru": "Меня ждет неделя отпуска…",
+    "uz": ""
+  },
+  {
+    "id": 143738,
+    "category": "items_weapons_vehicles",
+    "ru": "\\o/",
+    "uz": ""
+  },
+  {
+    "id": 143739,
+    "category": "items_weapons_vehicles",
+    "ru": "Ну что, пьем в \"Дудочнике\"?",
+    "uz": ""
+  },
+  {
+    "id": 143740,
+    "category": "items_weapons_vehicles",
+    "ru": "Ну пожа-а-алуйста!",
+    "uz": ""
+  },
+  {
+    "id": 143747,
+    "category": "items_weapons_vehicles",
+    "ru": "Пошли!",
+    "uz": ""
+  },
+  {
+    "id": 143749,
+    "category": "items_weapons_vehicles",
+    "ru": "Черт… не могу.",
+    "uz": ""
+  },
+  {
+    "id": 143750,
+    "category": "items_weapons_vehicles",
+    "ru": "Может, в \"Молоток\" завалимся?",
+    "uz": ""
+  },
+  {
+    "id": 143751,
+    "category": "items_weapons_vehicles",
+    "ru": "Собеседование прошло отлично.",
+    "uz": ""
+  },
+  {
+    "id": 143752,
+    "category": "items_weapons_vehicles",
+    "ru": "Так ты теперь там работаешь?",
+    "uz": ""
+  },
+  {
+    "id": 143753,
+    "category": "items_weapons_vehicles",
+    "ru": "Если \"работаешь\" и \"выпроводили\" - синонимы…",
+    "uz": ""
+  },
+  {
+    "id": 143758,
+    "category": "items_weapons_vehicles",
+    "ru": "С годовщиной, детка.",
+    "uz": ""
+  },
+  {
+    "id": 143759,
+    "category": "items_weapons_vehicles",
+    "ru": "Я купила пеньюарчик, все для тебя.",
+    "uz": ""
+  },
+  {
+    "id": 143760,
+    "category": "items_weapons_vehicles",
+    "ru": "Возвращайся скорее, позабавимся.",
+    "uz": ""
+  },
+  {
+    "id": 143761,
+    "category": "items_weapons_vehicles",
+    "ru": "O_O",
+    "uz": ""
+  },
+  {
+    "id": 143762,
+    "category": "items_weapons_vehicles",
+    "ru": "мама?!",
+    "uz": ""
+  },
+  {
+    "id": 143763,
+    "category": "items_weapons_vehicles",
+    "ru": "Прости! Это я отцу писала.",
+    "uz": ""
+  },
+  {
+    "id": 143764,
+    "category": "items_weapons_vehicles",
+    "ru": "ФУ!!!!!",
+    "uz": ""
+  },
+  {
+    "id": 143765,
+    "category": "items_weapons_vehicles",
+    "ru": "через день! Представляешь?",
+    "uz": ""
+  },
+  {
+    "id": 143766,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты же знаешь, я хочу устроить лучшую свадьбу на свете.",
+    "uz": ""
+  },
+  {
+    "id": 143767,
+    "category": "items_weapons_vehicles",
+    "ru": "я так тебя люблю, просто не могу дождаться свадьбы!",
+    "uz": ""
+  },
+  {
+    "id": 143768,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты еще тут?",
+    "uz": ""
+  },
+  {
+    "id": 143769,
+    "category": "items_weapons_vehicles",
+    "ru": "Эй-й.",
+    "uz": ""
+  },
+  {
+    "id": 143770,
+    "category": "items_weapons_vehicles",
+    "ru": "Слышь????????",
+    "uz": ""
+  },
+  {
+    "id": 143771,
+    "category": "items_weapons_vehicles",
+    "ru": "ОТВЕЧАЙ!",
+    "uz": ""
+  },
+  {
+    "id": 143779,
+    "category": "items_weapons_vehicles",
+    "ru": "буду через час",
+    "uz": ""
+  },
+  {
+    "id": 143780,
+    "category": "items_weapons_vehicles",
+    "ru": "не парься",
+    "uz": ""
+  },
+  {
+    "id": 143781,
+    "category": "items_weapons_vehicles",
+    "ru": "???",
+    "uz": ""
+  },
+  {
+    "id": 143782,
+    "category": "items_weapons_vehicles",
+    "ru": "все уехали",
+    "uz": ""
+  },
+  {
+    "id": 143787,
+    "category": "items_weapons_vehicles",
+    "ru": "все? кто все?",
+    "uz": ""
+  },
+  {
+    "id": 143788,
+    "category": "items_weapons_vehicles",
+    "ru": "последний раз тебе вечеринку устраиваю",
+    "uz": ""
+  },
+  {
+    "id": 143796,
+    "category": "items_weapons_vehicles",
+    "ru": "Матрас с эффектом \"памяти\" офигенный!",
+    "uz": ""
+  },
+  {
+    "id": 143797,
+    "category": "items_weapons_vehicles",
+    "ru": "Нет. Нет! Ты у меня больше не ночуешь!",
+    "uz": ""
+  },
+  {
+    "id": 143798,
+    "category": "items_weapons_vehicles",
+    "ru": "А что так? Со мной прикольно!",
+    "uz": ""
+  },
+  {
+    "id": 143799,
+    "category": "items_weapons_vehicles",
+    "ru": "1 - я в браке",
+    "uz": ""
+  },
+  {
+    "id": 143809,
+    "category": "items_weapons_vehicles",
+    "ru": "дай мне что-нибудь",
+    "uz": ""
+  },
+  {
+    "id": 143810,
+    "category": "items_weapons_vehicles",
+    "ru": "энергию",
+    "uz": ""
+  },
+  {
+    "id": 143811,
+    "category": "items_weapons_vehicles",
+    "ru": "душу ребенка",
+    "uz": ""
+  },
+  {
+    "id": 143812,
+    "category": "items_weapons_vehicles",
+    "ru": "глаза младенца",
+    "uz": ""
+  },
+  {
+    "id": 143813,
+    "category": "items_weapons_vehicles",
+    "ru": "конфетку…",
+    "uz": ""
+  },
+  {
+    "id": 143814,
+    "category": "items_weapons_vehicles",
+    "ru": "что-нибудь.",
+    "uz": ""
+  },
+  {
+    "id": 143815,
+    "category": "items_weapons_vehicles",
+    "ru": "погуляли",
+    "uz": ""
+  },
+  {
+    "id": 143816,
+    "category": "items_weapons_vehicles",
+    "ru": "секс был?",
+    "uz": ""
+  },
+  {
+    "id": 143817,
+    "category": "items_weapons_vehicles",
+    "ru": "я тебе пишу. непонятно?",
+    "uz": ""
+  },
+  {
+    "id": 143832,
+    "category": "items_weapons_vehicles",
+    "ru": "я тя лю",
+    "uz": ""
+  },
+  {
+    "id": 143833,
+    "category": "items_weapons_vehicles",
+    "ru": "Под мухой опять, да?",
+    "uz": ""
+  },
+  {
+    "id": 143834,
+    "category": "items_weapons_vehicles",
+    "ru": "нифига",
+    "uz": ""
+  },
+  {
+    "id": 143835,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты под мухой. :(",
+    "uz": ""
+  },
+  {
+    "id": 143837,
+    "category": "items_weapons_vehicles",
+    "ru": "В общем, назначили свидание.",
+    "uz": ""
+  },
+  {
+    "id": 143838,
+    "category": "items_weapons_vehicles",
+    "ru": "И?",
+    "uz": ""
+  },
+  {
+    "id": 143839,
+    "category": "items_weapons_vehicles",
+    "ru": "Ей надо в больницу, но \"ничего серьезного\".",
+    "uz": ""
+  },
+  {
+    "id": 143840,
+    "category": "items_weapons_vehicles",
+    "ru": "Может, она правду говорит?",
+    "uz": ""
+  },
+  {
+    "id": 143841,
+    "category": "items_weapons_vehicles",
+    "ru": "Да ладно, еще ж 4 дня есть.",
+    "uz": ""
+  },
+  {
+    "id": 143848,
+    "category": "items_weapons_vehicles",
+    "ru": "\"отношениям конец\", сказала нэнси",
+    "uz": ""
+  },
+  {
+    "id": 143849,
+    "category": "items_weapons_vehicles",
+    "ru": "вот черт",
+    "uz": ""
+  },
+  {
+    "id": 143851,
+    "category": "items_weapons_vehicles",
+    "ru": "с какого хера?",
+    "uz": ""
+  },
+  {
+    "id": 143852,
+    "category": "items_weapons_vehicles",
+    "ru": "долго объяснять",
+    "uz": ""
+  },
+  {
+    "id": 143858,
+    "category": "items_weapons_vehicles",
+    "ru": "тебе ссылка по почте пришла?",
+    "uz": ""
+  },
+  {
+    "id": 143859,
+    "category": "items_weapons_vehicles",
+    "ru": "ага. и что это??",
+    "uz": ""
+  },
+  {
+    "id": 143860,
+    "category": "items_weapons_vehicles",
+    "ru": "открой",
+    "uz": ""
+  },
+  {
+    "id": 143861,
+    "category": "items_weapons_vehicles",
+    "ru": "ок…",
+    "uz": ""
+  },
+  {
+    "id": 143862,
+    "category": "items_weapons_vehicles",
+    "ru": "МОИ ГЛАЗА!!! ШОЗАНАХ?!?",
+    "uz": ""
+  },
+  {
+    "id": 143864,
+    "category": "items_weapons_vehicles",
+    "ru": "муахахахах",
+    "uz": ""
+  },
+  {
+    "id": 143869,
+    "category": "items_weapons_vehicles",
+    "ru": "ЕЕЕ! \\m/",
+    "uz": ""
+  },
+  {
+    "id": 143870,
+    "category": "items_weapons_vehicles",
+    "ru": "крутой конц?",
+    "uz": ""
+  },
+  {
+    "id": 143871,
+    "category": "items_weapons_vehicles",
+    "ru": "ШИКАРНЫЙ!! Я НИЧЕГО НЕ СЛЫШУ!!! \\m/",
+    "uz": ""
+  },
+  {
+    "id": 143872,
+    "category": "items_weapons_vehicles",
+    "ru": "шик",
+    "uz": ""
+  },
+  {
+    "id": 143912,
+    "category": "items_weapons_vehicles",
+    "ru": "назови столицу Замбии",
+    "uz": ""
+  },
+  {
+    "id": 143913,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты мне сейчас с чего пишешь?",
+    "uz": ""
+  },
+  {
+    "id": 143914,
+    "category": "items_weapons_vehicles",
+    "ru": "Смартфон?",
+    "uz": ""
+  },
+  {
+    "id": 143915,
+    "category": "items_weapons_vehicles",
+    "ru": "Не, не подходит.",
+    "uz": ""
+  },
+  {
+    "id": 143925,
+    "category": "items_weapons_vehicles",
+    "ru": "шоколадный МАФФИН!!!",
+    "uz": ""
+  },
+  {
+    "id": 143926,
+    "category": "items_weapons_vehicles",
+    "ru": "Не будь сволочью.",
+    "uz": ""
+  },
+  {
+    "id": 143927,
+    "category": "items_weapons_vehicles",
+    "ru": "М-м, вкуснючая шоколадная нямка!",
+    "uz": ""
+  },
+  {
+    "id": 143928,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты ж знаешь, я на диете.",
+    "uz": ""
+  },
+  {
+    "id": 143929,
+    "category": "items_weapons_vehicles",
+    "ru": "Ням-ням-ням! Охеренно вкусно!",
+    "uz": ""
+  },
+  {
+    "id": 143934,
+    "category": "items_weapons_vehicles",
+    "ru": "Деймон",
+    "uz": ""
+  },
+  {
+    "id": 143935,
+    "category": "items_weapons_vehicles",
+    "ru": "Оуэн",
+    "uz": ""
+  },
+  {
+    "id": 143936,
+    "category": "items_weapons_vehicles",
+    "ru": "Доминго",
+    "uz": ""
+  },
+  {
+    "id": 143937,
+    "category": "items_weapons_vehicles",
+    "ru": "Жасмин",
+    "uz": ""
+  },
+  {
+    "id": 143942,
+    "category": "items_weapons_vehicles",
+    "ru": "Джойс",
+    "uz": ""
+  },
+  {
+    "id": 143946,
+    "category": "items_weapons_vehicles",
+    "ru": "Каролина",
+    "uz": ""
+  },
+  {
+    "id": 143947,
+    "category": "items_weapons_vehicles",
+    "ru": "Кончита",
+    "uz": ""
+  },
+  {
+    "id": 143959,
+    "category": "items_weapons_vehicles",
+    "ru": "как кино?",
+    "uz": ""
+  },
+  {
+    "id": 143960,
+    "category": "items_weapons_vehicles",
+    "ru": "для детского фильма жутковато",
+    "uz": ""
+  },
+  {
+    "id": 143961,
+    "category": "items_weapons_vehicles",
+    "ru": "можно я у тебя переночую?",
+    "uz": ""
+  },
+  {
+    "id": 143962,
+    "category": "items_weapons_vehicles",
+    "ru": "ха! отвали!",
+    "uz": ""
+  },
+  {
+    "id": 143963,
+    "category": "items_weapons_vehicles",
+    "ru": "Не, правда. Жуткое кино.",
+    "uz": ""
+  },
+  {
+    "id": 143973,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты знаешь, что у нас ступня одной длины с предплечьем?",
+    "uz": ""
+  },
+  {
+    "id": 143974,
+    "category": "items_weapons_vehicles",
+    "ru": "ну да",
+    "uz": ""
+  },
+  {
+    "id": 143975,
+    "category": "items_weapons_vehicles",
+    "ru": "ау. :(",
+    "uz": ""
+  },
+  {
+    "id": 143982,
+    "category": "items_weapons_vehicles",
+    "ru": "Ассистент продюсера",
+    "uz": ""
+  },
+  {
+    "id": 143992,
+    "category": "items_weapons_vehicles",
+    "ru": "тебе посылка пришла",
+    "uz": ""
+  },
+  {
+    "id": 143993,
+    "category": "items_weapons_vehicles",
+    "ru": "не открывай!",
+    "uz": ""
+  },
+  {
+    "id": 143994,
+    "category": "items_weapons_vehicles",
+    "ru": "какого хрена?",
+    "uz": ""
+  },
+  {
+    "id": 143995,
+    "category": "items_weapons_vehicles",
+    "ru": "не открывай, говорю",
+    "uz": ""
+  },
+  {
+    "id": 143996,
+    "category": "items_weapons_vehicles",
+    "ru": "что за херня с тобой творится?",
+    "uz": ""
+  },
+  {
+    "id": 144008,
+    "category": "items_weapons_vehicles",
+    "ru": "Хорошие новости? Или плохие?",
+    "uz": ""
+  },
+  {
+    "id": 144009,
+    "category": "items_weapons_vehicles",
+    "ru": "До завтра не узнаю.",
+    "uz": ""
+  },
+  {
+    "id": 144010,
+    "category": "items_weapons_vehicles",
+    "ru": "А по телефону док сказать не может?",
+    "uz": ""
+  },
+  {
+    "id": 144011,
+    "category": "items_weapons_vehicles",
+    "ru": "Только не по телефону!",
+    "uz": ""
+  },
+  {
+    "id": 144012,
+    "category": "items_weapons_vehicles",
+    "ru": "Не дергайся, все будет норм.",
+    "uz": ""
+  },
+  {
+    "id": 144018,
+    "category": "items_weapons_vehicles",
+    "ru": "надземка стала",
+    "uz": ""
+  },
+  {
+    "id": 144019,
+    "category": "items_weapons_vehicles",
+    "ru": "ctOS именно это должна предотвращать, типа, а?",
+    "uz": ""
+  },
+  {
+    "id": 144020,
+    "category": "items_weapons_vehicles",
+    "ru": "вот дерьмо, тут еще и бомж",
+    "uz": ""
+  },
+  {
+    "id": 144021,
+    "category": "items_weapons_vehicles",
+    "ru": "его прям ко мне прижали!!!",
+    "uz": ""
+  },
+  {
+    "id": 144022,
+    "category": "items_weapons_vehicles",
+    "ru": "вот что бы их всех не собрать где-нибудь подальше от нас?",
+    "uz": ""
+  },
+  {
+    "id": 144035,
+    "category": "items_weapons_vehicles",
+    "ru": "нахер, пойду пешком.",
+    "uz": ""
+  },
+  {
+    "id": 144041,
+    "category": "items_weapons_vehicles",
+    "ru": "Мясо в холодильнике.",
+    "uz": ""
+  },
+  {
+    "id": 144042,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты не дома?",
+    "uz": ""
+  },
+  {
+    "id": 144043,
+    "category": "items_weapons_vehicles",
+    "ru": "Нет.",
+    "uz": ""
+  },
+  {
+    "id": 144044,
+    "category": "items_weapons_vehicles",
+    "ru": "Не хочу тебя видеть.",
+    "uz": ""
+  },
+  {
+    "id": 144045,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты что, все еще злишься?",
+    "uz": ""
+  },
+  {
+    "id": 144046,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты точно смсками хочешь продолжить?",
+    "uz": ""
+  },
+  {
+    "id": 144058,
+    "category": "items_weapons_vehicles",
+    "ru": "Макс",
+    "uz": ""
+  },
+  {
+    "id": 144064,
+    "category": "items_weapons_vehicles",
+    "ru": "Лино",
+    "uz": ""
+  },
+  {
+    "id": 144065,
+    "category": "items_weapons_vehicles",
+    "ru": "Роландо",
+    "uz": ""
+  },
+  {
+    "id": 144066,
+    "category": "items_weapons_vehicles",
+    "ru": "Алехандро",
+    "uz": ""
+  },
+  {
+    "id": 144071,
+    "category": "items_weapons_vehicles",
+    "ru": "Дэннис",
+    "uz": ""
+  },
+  {
+    "id": 144075,
+    "category": "items_weapons_vehicles",
+    "ru": "Джаред",
+    "uz": ""
+  },
+  {
+    "id": 144076,
+    "category": "items_weapons_vehicles",
+    "ru": "Феликс",
+    "uz": ""
+  },
+  {
+    "id": 144077,
+    "category": "items_weapons_vehicles",
+    "ru": "Тайрон",
+    "uz": ""
+  },
+  {
+    "id": 144078,
+    "category": "items_weapons_vehicles",
+    "ru": "Малкольм",
+    "uz": ""
+  },
+  {
+    "id": 144079,
+    "category": "items_weapons_vehicles",
+    "ru": "Малкольм",
+    "uz": ""
+  },
+  {
+    "id": 144092,
+    "category": "items_weapons_vehicles",
+    "ru": "Ким",
+    "uz": ""
+  },
+  {
+    "id": 144093,
+    "category": "items_weapons_vehicles",
+    "ru": "Коннор",
+    "uz": ""
+  },
+  {
+    "id": 144094,
+    "category": "items_weapons_vehicles",
+    "ru": "Калипсо",
+    "uz": ""
+  },
+  {
+    "id": 144095,
+    "category": "items_weapons_vehicles",
+    "ru": "Эдриан",
+    "uz": ""
+  },
+  {
+    "id": 144096,
+    "category": "items_weapons_vehicles",
+    "ru": "Антуан",
+    "uz": ""
+  },
+  {
+    "id": 144103,
+    "category": "items_weapons_vehicles",
+    "ru": "Леон",
+    "uz": ""
+  },
+  {
+    "id": 144110,
+    "category": "items_weapons_vehicles",
+    "ru": "Джейден",
+    "uz": ""
+  },
+  {
+    "id": 144111,
+    "category": "items_weapons_vehicles",
+    "ru": "Кальвин",
+    "uz": ""
+  },
+  {
+    "id": 144112,
+    "category": "items_weapons_vehicles",
+    "ru": "Оларте",
+    "uz": ""
+  },
+  {
+    "id": 144113,
+    "category": "items_weapons_vehicles",
+    "ru": "Рассел",
+    "uz": ""
+  },
+  {
+    "id": 144114,
+    "category": "items_weapons_vehicles",
+    "ru": "Наоми",
+    "uz": ""
+  },
+  {
+    "id": 144115,
+    "category": "items_weapons_vehicles",
+    "ru": "Мэри",
+    "uz": ""
+  },
+  {
+    "id": 144116,
+    "category": "items_weapons_vehicles",
+    "ru": "Пенелопа",
+    "uz": ""
+  },
+  {
+    "id": 144127,
+    "category": "items_weapons_vehicles",
+    "ru": "Куинлан",
+    "uz": ""
+  },
+  {
+    "id": 144128,
+    "category": "items_weapons_vehicles",
+    "ru": "Клэй",
+    "uz": ""
+  },
+  {
+    "id": 144129,
+    "category": "items_weapons_vehicles",
+    "ru": "Кори",
+    "uz": ""
+  },
+  {
+    "id": 144130,
+    "category": "items_weapons_vehicles",
+    "ru": "Коди",
+    "uz": ""
+  },
+  {
+    "id": 144131,
+    "category": "items_weapons_vehicles",
+    "ru": "Закария",
+    "uz": ""
+  },
+  {
+    "id": 144132,
+    "category": "items_weapons_vehicles",
+    "ru": "Джером",
+    "uz": ""
+  },
+  {
+    "id": 144133,
+    "category": "items_weapons_vehicles",
+    "ru": "Саймон",
+    "uz": ""
+  },
+  {
+    "id": 144134,
+    "category": "items_weapons_vehicles",
+    "ru": "Эдди",
+    "uz": ""
+  },
+  {
+    "id": 144141,
+    "category": "items_weapons_vehicles",
+    "ru": "мега-секси!",
+    "uz": ""
+  },
+  {
+    "id": 144142,
+    "category": "items_weapons_vehicles",
+    "ru": "он с тобой говорил?",
+    "uz": ""
+  },
+  {
+    "id": 144143,
+    "category": "items_weapons_vehicles",
+    "ru": "кто он?",
+    "uz": ""
+  },
+  {
+    "id": 144144,
+    "category": "items_weapons_vehicles",
+    "ru": "я про себя!",
+    "uz": ""
+  },
+  {
+    "id": 144147,
+    "category": "items_weapons_vehicles",
+    "ru": "ненавижу тебя",
+    "uz": ""
+  },
+  {
+    "id": 144148,
+    "category": "items_weapons_vehicles",
+    "ru": "я тоже себя ненавижу :(",
+    "uz": ""
+  },
+  {
+    "id": 144151,
+    "category": "items_weapons_vehicles",
+    "ru": "почему ты не отвечаешь на звонки?",
+    "uz": ""
+  },
+  {
+    "id": 144152,
+    "category": "items_weapons_vehicles",
+    "ru": "слышь?",
+    "uz": ""
+  },
+  {
+    "id": 144153,
+    "category": "items_weapons_vehicles",
+    "ru": "ты меня пугаешь",
+    "uz": ""
+  },
+  {
+    "id": 144154,
+    "category": "items_weapons_vehicles",
+    "ru": "мчусь к тебе…",
+    "uz": ""
+  },
+  {
+    "id": 144157,
+    "category": "items_weapons_vehicles",
+    "ru": "Ной",
+    "uz": ""
+  },
+  {
+    "id": 145251,
+    "category": "items_weapons_vehicles",
+    "ru": "майк тебя уже ждет",
+    "uz": ""
+  },
+  {
+    "id": 145252,
+    "category": "items_weapons_vehicles",
+    "ru": "что еще за майк?",
+    "uz": ""
+  },
+  {
+    "id": 145253,
+    "category": "items_weapons_vehicles",
+    "ru": "твой брат?",
+    "uz": ""
+  },
+  {
+    "id": 145254,
+    "category": "items_weapons_vehicles",
+    "ru": "у меня нет брата!",
+    "uz": ""
+  },
+  {
+    "id": 145255,
+    "category": "items_weapons_vehicles",
+    "ru": "упс",
+    "uz": ""
+  },
+  {
+    "id": 145256,
+    "category": "items_weapons_vehicles",
+    "ru": "твою мать! уже иду",
+    "uz": ""
+  },
+  {
+    "id": 145267,
+    "category": "items_weapons_vehicles",
+    "ru": "Это просто охрененный фильм!",
+    "uz": ""
+  },
+  {
+    "id": 145268,
+    "category": "items_weapons_vehicles",
+    "ru": "Можно расскажу кое-что?",
+    "uz": ""
+  },
+  {
+    "id": 145269,
+    "category": "items_weapons_vehicles",
+    "ru": "Нет! Без спойлеров!",
+    "uz": ""
+  },
+  {
+    "id": 145270,
+    "category": "items_weapons_vehicles",
+    "ru": "Да это мелочь, ничего страшного.",
+    "uz": ""
+  },
+  {
+    "id": 145518,
+    "category": "items_weapons_vehicles",
+    "ru": "о боже",
+    "uz": ""
+  },
+  {
+    "id": 145519,
+    "category": "items_weapons_vehicles",
+    "ru": "больно!",
+    "uz": ""
+  },
+  {
+    "id": 145520,
+    "category": "items_weapons_vehicles",
+    "ru": "убицца!!!",
+    "uz": ""
+  },
+  {
+    "id": 145521,
+    "category": "items_weapons_vehicles",
+    "ru": "???",
+    "uz": ""
+  },
+  {
+    "id": 145522,
+    "category": "items_weapons_vehicles",
+    "ru": "почечный камень вышел… ох, мать твою…",
+    "uz": ""
+  },
+  {
+    "id": 145529,
+    "category": "items_weapons_vehicles",
+    "ru": "о чем думаешь?",
+    "uz": ""
+  },
+  {
+    "id": 145530,
+    "category": "items_weapons_vehicles",
+    "ru": "эм…",
+    "uz": ""
+  },
+  {
+    "id": 145531,
+    "category": "items_weapons_vehicles",
+    "ru": "ты обо мне думаешь?",
+    "uz": ""
+  },
+  {
+    "id": 145532,
+    "category": "items_weapons_vehicles",
+    "ru": "э…",
+    "uz": ""
+  },
+  {
+    "id": 145533,
+    "category": "items_weapons_vehicles",
+    "ru": "ну?",
+    "uz": ""
+  },
+  {
+    "id": 145540,
+    "category": "items_weapons_vehicles",
+    "ru": "Тебе никогда не хотелось кого-нибудь внезапно шлепнуть на улице?",
+    "uz": ""
+  },
+  {
+    "id": 145541,
+    "category": "items_weapons_vehicles",
+    "ru": "???",
+    "uz": ""
+  },
+  {
+    "id": 145542,
+    "category": "items_weapons_vehicles",
+    "ru": "Значит, нет?",
+    "uz": ""
+  },
+  {
+    "id": 145559,
+    "category": "items_weapons_vehicles",
+    "ru": "Абриана",
+    "uz": ""
+  },
+  {
+    "id": 145563,
+    "category": "items_weapons_vehicles",
+    "ru": "Лиэм",
+    "uz": ""
+  },
+  {
+    "id": 145564,
+    "category": "items_weapons_vehicles",
+    "ru": "Ариела",
+    "uz": ""
+  },
+  {
+    "id": 145565,
+    "category": "items_weapons_vehicles",
+    "ru": "Эльза",
+    "uz": ""
+  },
+  {
+    "id": 145566,
+    "category": "items_weapons_vehicles",
+    "ru": "Эмилия",
+    "uz": ""
+  },
+  {
+    "id": 145567,
+    "category": "items_weapons_vehicles",
+    "ru": "Карла",
+    "uz": ""
+  },
+  {
+    "id": 145568,
+    "category": "items_weapons_vehicles",
+    "ru": "Лола",
+    "uz": ""
+  },
+  {
+    "id": 145569,
+    "category": "items_weapons_vehicles",
+    "ru": "Роза",
+    "uz": ""
+  },
+  {
+    "id": 145570,
+    "category": "items_weapons_vehicles",
+    "ru": "Лупе",
+    "uz": ""
+  },
+  {
+    "id": 145571,
+    "category": "items_weapons_vehicles",
+    "ru": "Ирна",
+    "uz": ""
+  },
+  {
+    "id": 145579,
+    "category": "items_weapons_vehicles",
+    "ru": "Лючита",
+    "uz": ""
+  },
+  {
+    "id": 145580,
+    "category": "items_weapons_vehicles",
+    "ru": "Мариса",
+    "uz": ""
+  },
+  {
+    "id": 145584,
+    "category": "items_weapons_vehicles",
+    "ru": "Дэррил",
+    "uz": ""
+  },
+  {
+    "id": 145585,
+    "category": "items_weapons_vehicles",
+    "ru": "Соледад",
+    "uz": ""
+  },
+  {
+    "id": 145595,
+    "category": "items_weapons_vehicles",
+    "ru": "Оливия",
+    "uz": ""
+  },
+  {
+    "id": 145596,
+    "category": "items_weapons_vehicles",
+    "ru": "Ивонн",
+    "uz": ""
+  },
+  {
+    "id": 145602,
+    "category": "items_weapons_vehicles",
+    "ru": "Вивиан",
+    "uz": ""
+  },
+  {
+    "id": 145898,
+    "category": "items_weapons_vehicles",
+    "ru": "да твою ж мать! У меня мандавошки",
+    "uz": ""
+  },
+  {
+    "id": 145899,
+    "category": "items_weapons_vehicles",
+    "ru": "у меня остался специальный шампунь…",
+    "uz": ""
+  },
+  {
+    "id": 145900,
+    "category": "items_weapons_vehicles",
+    "ru": "и у тебя были?!",
+    "uz": ""
+  },
+  {
+    "id": 145901,
+    "category": "items_weapons_vehicles",
+    "ru": "типа да",
+    "uz": ""
+  },
+  {
+    "id": 145902,
+    "category": "items_weapons_vehicles",
+    "ru": "фу-у-у!",
+    "uz": ""
+  },
+  {
+    "id": 145903,
+    "category": "items_weapons_vehicles",
+    "ru": "просто используй шампунь, без ханжества",
+    "uz": ""
+  },
+  {
+    "id": 145918,
+    "category": "items_weapons_vehicles",
+    "ru": "Хуэй",
+    "uz": ""
+  },
+  {
+    "id": 145919,
+    "category": "items_weapons_vehicles",
+    "ru": "Лян",
+    "uz": ""
+  },
+  {
+    "id": 145933,
+    "category": "items_weapons_vehicles",
+    "ru": "Пяо",
+    "uz": ""
+  },
+  {
+    "id": 145934,
+    "category": "items_weapons_vehicles",
+    "ru": "Жуэй",
+    "uz": ""
+  },
+  {
+    "id": 145948,
+    "category": "items_weapons_vehicles",
+    "ru": "Бан",
+    "uz": ""
+  },
+  {
+    "id": 145949,
+    "category": "items_weapons_vehicles",
+    "ru": "Чжу",
+    "uz": ""
+  },
+  {
+    "id": 145950,
+    "category": "items_weapons_vehicles",
+    "ru": "Эньлай",
+    "uz": ""
+  },
+  {
+    "id": 145951,
+    "category": "items_weapons_vehicles",
+    "ru": "Хо",
+    "uz": ""
+  },
+  {
+    "id": 145952,
+    "category": "items_weapons_vehicles",
+    "ru": "Цзя",
+    "uz": ""
+  },
+  {
+    "id": 145953,
+    "category": "items_weapons_vehicles",
+    "ru": "Му",
+    "uz": ""
+  },
+  {
+    "id": 145954,
+    "category": "items_weapons_vehicles",
+    "ru": "Си",
+    "uz": ""
+  },
+  {
+    "id": 145959,
+    "category": "items_weapons_vehicles",
+    "ru": "Ту",
+    "uz": ""
+  },
+  {
+    "id": 145965,
+    "category": "items_weapons_vehicles",
+    "ru": "<==8",
+    "uz": ""
+  },
+  {
+    "id": 145966,
+    "category": "items_weapons_vehicles",
+    "ru": "8=======>",
+    "uz": ""
+  },
+  {
+    "id": 145967,
+    "category": "items_weapons_vehicles",
+    "ru": "ниче так",
+    "uz": ""
+  },
+  {
+    "id": 145969,
+    "category": "items_weapons_vehicles",
+    "ru": "омгомгомгомгомг",
+    "uz": ""
+  },
+  {
+    "id": 145970,
+    "category": "items_weapons_vehicles",
+    "ru": "чего?",
+    "uz": ""
+  },
+  {
+    "id": 145971,
+    "category": "items_weapons_vehicles",
+    "ru": "что случилось?",
+    "uz": ""
+  },
+  {
+    "id": 145972,
+    "category": "items_weapons_vehicles",
+    "ru": "ничего…",
+    "uz": ""
+  },
+  {
+    "id": 146046,
+    "category": "items_weapons_vehicles",
+    "ru": "первый концерт в пятницу!",
+    "uz": ""
+  },
+  {
+    "id": 146047,
+    "category": "items_weapons_vehicles",
+    "ru": "круто! название есть?",
+    "uz": ""
+  },
+  {
+    "id": 146048,
+    "category": "items_weapons_vehicles",
+    "ru": "Полное Ведро Соплей",
+    "uz": ""
+  },
+  {
+    "id": 146049,
+    "category": "items_weapons_vehicles",
+    "ru": "! (O_O;)",
+    "uz": ""
+  },
+  {
+    "id": 146050,
+    "category": "items_weapons_vehicles",
+    "ru": "крутяк, а?",
+    "uz": ""
+  },
+  {
+    "id": 146051,
+    "category": "items_weapons_vehicles",
+    "ru": "двойные сливки?",
+    "uz": ""
+  },
+  {
+    "id": 146052,
+    "category": "items_weapons_vehicles",
+    "ru": "обожаю тебя!",
+    "uz": ""
+  },
+  {
+    "id": 146053,
+    "category": "items_weapons_vehicles",
+    "ru": "заказываю. пока доберешься, как раз должны доставить.",
+    "uz": ""
+  },
+  {
+    "id": 146054,
+    "category": "items_weapons_vehicles",
+    "ru": "спасибо, детка. чмоки!",
+    "uz": ""
+  },
+  {
+    "id": 146058,
+    "category": "items_weapons_vehicles",
+    "ru": "знаешь, что такое бхут?",
+    "uz": ""
+  },
+  {
+    "id": 146059,
+    "category": "items_weapons_vehicles",
+    "ru": "это что еще за хрень?",
+    "uz": ""
+  },
+  {
+    "id": 146060,
+    "category": "items_weapons_vehicles",
+    "ru": "третий по жгучести перец в мире!",
+    "uz": ""
+  },
+  {
+    "id": 146068,
+    "category": "items_weapons_vehicles",
+    "ru": "Член Республиканской партии",
+    "uz": ""
+  },
+  {
+    "id": 146069,
+    "category": "items_weapons_vehicles",
+    "ru": "Собирает купоны",
+    "uz": ""
+  },
+  {
+    "id": 146070,
+    "category": "items_weapons_vehicles",
+    "ru": "Часто покупает в сети книги",
+    "uz": ""
+  },
+  {
+    "id": 146071,
+    "category": "items_weapons_vehicles",
+    "ru": "Лечится от фобий гипнотерапией",
+    "uz": ""
+  },
+  {
+    "id": 146072,
+    "category": "items_weapons_vehicles",
+    "ru": "Заява на увольнение у босса :D",
+    "uz": ""
+  },
+  {
+    "id": 146073,
+    "category": "items_weapons_vehicles",
+    "ru": "Уиии! Осталось 2 недели в этой жопе!",
+    "uz": ""
+  },
+  {
+    "id": 146074,
+    "category": "items_weapons_vehicles",
+    "ru": "Стоп… Мне че, еще пахать и пахать?!",
+    "uz": ""
+  },
+  {
+    "id": 146075,
+    "category": "items_weapons_vehicles",
+    "ru": "Угу. 2 недельки всего.",
+    "uz": ""
+  },
+  {
+    "id": 146076,
+    "category": "items_weapons_vehicles",
+    "ru": "ТВОЮ МАТЬ!",
+    "uz": ""
+  },
+  {
+    "id": 146077,
+    "category": "items_weapons_vehicles",
+    "ru": "мать-мать-мать! вот же дерьмо!",
+    "uz": ""
+  },
+  {
+    "id": 146078,
+    "category": "items_weapons_vehicles",
+    "ru": "я гребаный экран скоро расколочу нахрен!",
+    "uz": ""
+  },
+  {
+    "id": 146079,
+    "category": "items_weapons_vehicles",
+    "ru": "(O_O)",
+    "uz": ""
+  },
+  {
+    "id": 146080,
+    "category": "items_weapons_vehicles",
+    "ru": "вижу сисьге",
+    "uz": ""
+  },
+  {
+    "id": 146081,
+    "category": "items_weapons_vehicles",
+    "ru": "нра",
+    "uz": ""
+  },
+  {
+    "id": 146082,
+    "category": "items_weapons_vehicles",
+    "ru": "а, новая ось…",
+    "uz": ""
+  },
+  {
+    "id": 146083,
+    "category": "items_weapons_vehicles",
+    "ru": "костюм у меня. такой сексуальный.",
+    "uz": ""
+  },
+  {
+    "id": 146084,
+    "category": "items_weapons_vehicles",
+    "ru": "правда? опиши ;)",
+    "uz": ""
+  },
+  {
+    "id": 146085,
+    "category": "items_weapons_vehicles",
+    "ru": "короче, костюм бурундука во весь рост и маска ;)",
+    "uz": ""
+  },
+  {
+    "id": 146086,
+    "category": "items_weapons_vehicles",
+    "ru": "отпад!",
+    "uz": ""
+  },
+  {
+    "id": 146087,
+    "category": "items_weapons_vehicles",
+    "ru": "а то! слава фурри!",
+    "uz": ""
+  },
+  {
+    "id": 146110,
+    "category": "items_weapons_vehicles",
+    "ru": "Кста, читаю твой сценарий",
+    "uz": ""
+  },
+  {
+    "id": 146111,
+    "category": "items_weapons_vehicles",
+    "ru": "И???",
+    "uz": ""
+  },
+  {
+    "id": 146112,
+    "category": "items_weapons_vehicles",
+    "ru": "Давай за кофе обсудим.",
+    "uz": ""
+  },
+  {
+    "id": 146113,
+    "category": "items_weapons_vehicles",
+    "ru": "Так плохо? :(",
+    "uz": ""
+  },
+  {
+    "id": 146114,
+    "category": "items_weapons_vehicles",
+    "ru": "Обожаю кошек. Они такие лапочки.",
+    "uz": ""
+  },
+  {
+    "id": 146115,
+    "category": "items_weapons_vehicles",
+    "ru": "Хахаха, кошатницо",
+    "uz": ""
+  },
+  {
+    "id": 146116,
+    "category": "items_weapons_vehicles",
+    "ru": "Нихрена!",
+    "uz": ""
+  },
+  {
+    "id": 146117,
+    "category": "items_weapons_vehicles",
+    "ru": "У тебя никого",
+    "uz": ""
+  },
+  {
+    "id": 146118,
+    "category": "items_weapons_vehicles",
+    "ru": "Заедешь за мной?",
+    "uz": ""
+  },
+  {
+    "id": 146119,
+    "category": "items_weapons_vehicles",
+    "ru": "Я пас!",
+    "uz": ""
+  },
+  {
+    "id": 146120,
+    "category": "items_weapons_vehicles",
+    "ru": "Эй! Спасай!",
+    "uz": ""
+  },
+  {
+    "id": 146121,
+    "category": "items_weapons_vehicles",
+    "ru": "Где ты?",
+    "uz": ""
+  },
+  {
+    "id": 146122,
+    "category": "items_weapons_vehicles",
+    "ru": "Не знаю, в какой-то глуши!",
+    "uz": ""
+  },
+  {
+    "id": 146190,
+    "category": "items_weapons_vehicles",
+    "ru": "синий сокол воспарит до полуночи",
+    "uz": ""
+  },
+  {
+    "id": 146191,
+    "category": "items_weapons_vehicles",
+    "ru": "принято",
+    "uz": ""
+  },
+  {
+    "id": 146437,
+    "category": "items_weapons_vehicles",
+    "ru": "Сурдопереводчик",
+    "uz": ""
+  },
+  {
+    "id": 146444,
+    "category": "items_weapons_vehicles",
+    "ru": "Инженер-строитель",
+    "uz": ""
+  },
+  {
+    "id": 146445,
+    "category": "items_weapons_vehicles",
+    "ru": "Тренер по боевым искусствам",
+    "uz": ""
+  },
+  {
+    "id": 146450,
+    "category": "items_weapons_vehicles",
+    "ru": "Инженер-проектировщик",
+    "uz": ""
+  },
+  {
+    "id": 146451,
+    "category": "items_weapons_vehicles",
+    "ru": "Инженер-программист",
+    "uz": ""
+  },
+  {
+    "id": 146452,
+    "category": "items_weapons_vehicles",
+    "ru": "Инженер-нефтяник",
+    "uz": ""
+  },
+  {
+    "id": 146474,
+    "category": "items_weapons_vehicles",
+    "ru": "привет от Мардж",
+    "uz": ""
+  },
+  {
+    "id": 146475,
+    "category": "items_weapons_vehicles",
+    "ru": "Шо?",
+    "uz": ""
+  },
+  {
+    "id": 146476,
+    "category": "items_weapons_vehicles",
+    "ru": "Вы же знакомы. Шепелявая такая.",
+    "uz": ""
+  },
+  {
+    "id": 146477,
+    "category": "items_weapons_vehicles",
+    "ru": "Фкавы, фто у меня галюшинашии!",
+    "uz": ""
+  },
+  {
+    "id": 146478,
+    "category": "items_weapons_vehicles",
+    "ru": "Как-то грубо… но смешно! ЛОЛ",
+    "uz": ""
+  },
+  {
+    "id": 146479,
+    "category": "items_weapons_vehicles",
+    "ru": "Бесит, когда люди так ПЛЕТУТСЯ!",
+    "uz": ""
+  },
+  {
+    "id": 146480,
+    "category": "items_weapons_vehicles",
+    "ru": "А тебе-то че?",
+    "uz": ""
+  },
+  {
+    "id": 146481,
+    "category": "items_weapons_vehicles",
+    "ru": "Пни ближнего, если мешает.",
+    "uz": ""
+  },
+  {
+    "id": 146482,
+    "category": "items_weapons_vehicles",
+    "ru": "Да! Путаются под ногами, уроды!",
+    "uz": ""
+  },
+  {
+    "id": 146483,
+    "category": "items_weapons_vehicles",
+    "ru": "Воу, воу, я же шучу!",
+    "uz": ""
+  },
+  {
+    "id": 146498,
+    "category": "items_weapons_vehicles",
+    "ru": "Тебе не кажется, что за нами следят?",
+    "uz": ""
+  },
+  {
+    "id": 146499,
+    "category": "items_weapons_vehicles",
+    "ru": "Гы. Нет.",
+    "uz": ""
+  },
+  {
+    "id": 146500,
+    "category": "items_weapons_vehicles",
+    "ru": "А мне кажется. Вот прям сейчас.",
+    "uz": ""
+  },
+  {
+    "id": 146501,
+    "category": "items_weapons_vehicles",
+    "ru": "Это паранойя.",
+    "uz": ""
+  },
+  {
+    "id": 146520,
+    "category": "items_weapons_vehicles",
+    "ru": "плохая корея - северная или южная?",
+    "uz": ""
+  },
+  {
+    "id": 146521,
+    "category": "items_weapons_vehicles",
+    "ru": "южная… конечно же…",
+    "uz": ""
+  },
+  {
+    "id": 146522,
+    "category": "items_weapons_vehicles",
+    "ru": "спс… бронирую путевку…",
+    "uz": ""
+  },
+  {
+    "id": 146543,
+    "category": "items_weapons_vehicles",
+    "ru": "Категорический императив - ключ к порядку!",
+    "uz": ""
+  },
+  {
+    "id": 146544,
+    "category": "items_weapons_vehicles",
+    "ru": "Нет! Основа всего - утилитаризм, не мораль!",
+    "uz": ""
+  },
+  {
+    "id": 146545,
+    "category": "items_weapons_vehicles",
+    "ru": "Мы больше не сможем быть друзьями.",
+    "uz": ""
+  },
+  {
+    "id": 146585,
+    "category": "items_weapons_vehicles",
+    "ru": "был у меня приятель-киношник",
+    "uz": ""
+  },
+  {
+    "id": 146586,
+    "category": "items_weapons_vehicles",
+    "ru": "у них один продюсер вечно везде лез",
+    "uz": ""
+  },
+  {
+    "id": 146587,
+    "category": "items_weapons_vehicles",
+    "ru": "и путался под ногами",
+    "uz": ""
+  },
+  {
+    "id": 146588,
+    "category": "items_weapons_vehicles",
+    "ru": "так они завели статью расхода \"инвентарь\"",
+    "uz": ""
+  },
+  {
+    "id": 146589,
+    "category": "items_weapons_vehicles",
+    "ru": "Как уроки гитары?",
+    "uz": ""
+  },
+  {
+    "id": 146590,
+    "category": "items_weapons_vehicles",
+    "ru": "Пальцы отваливаются!",
+    "uz": ""
+  },
+  {
+    "id": 146591,
+    "category": "items_weapons_vehicles",
+    "ru": "Ерунда. Это пройдет.",
+    "uz": ""
+  },
+  {
+    "id": 146592,
+    "category": "items_weapons_vehicles",
+    "ru": "Так болят, что их отгрызть хочется!",
+    "uz": ""
+  },
+  {
+    "id": 146599,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты дома? Хочу кое-что забрать.",
+    "uz": ""
+  },
+  {
+    "id": 146600,
+    "category": "items_weapons_vehicles",
+    "ru": "Да, но могу уехать.",
+    "uz": ""
+  },
+  {
+    "id": 146601,
+    "category": "items_weapons_vehicles",
+    "ru": "И прекрасно. Видеть тебя не могу.",
+    "uz": ""
+  },
+  {
+    "id": 146602,
+    "category": "items_weapons_vehicles",
+    "ru": "К",
+    "uz": ""
+  },
+  {
+    "id": 146607,
+    "category": "items_weapons_vehicles",
+    "ru": "Твой спонсор звонил.",
+    "uz": ""
+  },
+  {
+    "id": 146608,
+    "category": "items_weapons_vehicles",
+    "ru": "Блин.",
+    "uz": ""
+  },
+  {
+    "id": 146609,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты что, издеваешься?",
+    "uz": ""
+  },
+  {
+    "id": 146610,
+    "category": "items_weapons_vehicles",
+    "ru": "Всего РАЗОЧЕК!",
+    "uz": ""
+  },
+  {
+    "id": 146611,
+    "category": "items_weapons_vehicles",
+    "ru": "Еще раз сорвешься - аннигилирую!",
+    "uz": ""
+  },
+  {
+    "id": 146615,
+    "category": "items_weapons_vehicles",
+    "ru": "Она весь день точит клубнику и сало!",
+    "uz": ""
+  },
+  {
+    "id": 146616,
+    "category": "items_weapons_vehicles",
+    "ru": "Буэ!",
+    "uz": ""
+  },
+  {
+    "id": 146617,
+    "category": "items_weapons_vehicles",
+    "ru": "Говорит, мол, ребеночку хочется. :s",
+    "uz": ""
+  },
+  {
+    "id": 146618,
+    "category": "items_weapons_vehicles",
+    "ru": "Че там за мутант, что клубнику с салом жрет?",
+    "uz": ""
+  },
+  {
+    "id": 146619,
+    "category": "items_weapons_vehicles",
+    "ru": "Скорей бы это чудище вылезло.",
+    "uz": ""
+  },
+  {
+    "id": 146622,
+    "category": "items_weapons_vehicles",
+    "ru": "йо, Сэнди вчера была у меня!",
+    "uz": ""
+  },
+  {
+    "id": 146623,
+    "category": "items_weapons_vehicles",
+    "ru": "наслаждайся объедками.",
+    "uz": ""
+  },
+  {
+    "id": 146624,
+    "category": "items_weapons_vehicles",
+    "ru": "блюдо было вполне свежее!",
+    "uz": ""
+  },
+  {
+    "id": 146625,
+    "category": "items_weapons_vehicles",
+    "ru": "думаешь, я ревновать буду? обломись.",
+    "uz": ""
+  },
+  {
+    "id": 146626,
+    "category": "items_weapons_vehicles",
+    "ru": "если ей с тобой не в кайф, я ни при чем!",
+    "uz": ""
+  },
+  {
+    "id": 146650,
+    "category": "items_weapons_vehicles",
+    "ru": "Иногда думаю, жизнь - полоса препятствий.",
+    "uz": ""
+  },
+  {
+    "id": 146651,
+    "category": "items_weapons_vehicles",
+    "ru": "Школа, работа, семья - не принесли счастья.",
+    "uz": ""
+  },
+  {
+    "id": 146652,
+    "category": "items_weapons_vehicles",
+    "ru": "Мешали заниматься тем, чем правда хочу.",
+    "uz": ""
+  },
+  {
+    "id": 146653,
+    "category": "items_weapons_vehicles",
+    "ru": "Понимаешь меня?",
+    "uz": ""
+  },
+  {
+    "id": 146658,
+    "category": "items_weapons_vehicles",
+    "ru": "сорьки, я в драбадан, ниче не вдупляю",
+    "uz": ""
+  },
+  {
+    "id": 146689,
+    "category": "items_weapons_vehicles",
+    "ru": "давай все обсудим",
+    "uz": ""
+  },
+  {
+    "id": 146690,
+    "category": "items_weapons_vehicles",
+    "ru": "Как адвокат подъедет.",
+    "uz": ""
+  },
+  {
+    "id": 146691,
+    "category": "items_weapons_vehicles",
+    "ru": "я не буду тебя бить",
+    "uz": ""
+  },
+  {
+    "id": 146694,
+    "category": "items_weapons_vehicles",
+    "ru": "А я уже дома!",
+    "uz": ""
+  },
+  {
+    "id": 146695,
+    "category": "items_weapons_vehicles",
+    "ru": "БОЖЕ Ж МОЙ.",
+    "uz": ""
+  },
+  {
+    "id": 146696,
+    "category": "items_weapons_vehicles",
+    "ru": "Что, все это время в больнице?",
+    "uz": ""
+  },
+  {
+    "id": 146701,
+    "category": "items_weapons_vehicles",
+    "ru": "алло.",
+    "uz": ""
+  },
+  {
+    "id": 146702,
+    "category": "items_weapons_vehicles",
+    "ru": "привет, пап, как новый телефон?",
+    "uz": ""
+  },
+  {
+    "id": 146703,
+    "category": "items_weapons_vehicles",
+    "ru": "Это папа.",
+    "uz": ""
+  },
+  {
+    "id": 146704,
+    "category": "items_weapons_vehicles",
+    "ru": "да, я вижу",
+    "uz": ""
+  },
+  {
+    "id": 146711,
+    "category": "items_weapons_vehicles",
+    "ru": "Как насчет караоке?",
+    "uz": ""
+  },
+  {
+    "id": 146712,
+    "category": "items_weapons_vehicles",
+    "ru": "Откуда такая страсть к насилию?",
+    "uz": ""
+  },
+  {
+    "id": 146713,
+    "category": "items_weapons_vehicles",
+    "ru": "Сперва родео, а теперь еще и это.",
+    "uz": ""
+  },
+  {
+    "id": 146714,
+    "category": "items_weapons_vehicles",
+    "ru": "В пень.",
+    "uz": ""
+  },
+  {
+    "id": 146718,
+    "category": "items_weapons_vehicles",
+    "ru": "Мой психолог хочет меня убить.",
+    "uz": ""
+  },
+  {
+    "id": 146719,
+    "category": "items_weapons_vehicles",
+    "ru": "Ей придется встать в очередь.",
+    "uz": ""
+  },
+  {
+    "id": 146720,
+    "category": "items_weapons_vehicles",
+    "ru": "Я серьезно!",
+    "uz": ""
+  },
+  {
+    "id": 146721,
+    "category": "items_weapons_vehicles",
+    "ru": "Она на меня так смотрит…",
+    "uz": ""
+  },
+  {
+    "id": 146722,
+    "category": "items_weapons_vehicles",
+    "ru": "Кто-то обещал скинуться!!!",
+    "uz": ""
+  },
+  {
+    "id": 146723,
+    "category": "items_weapons_vehicles",
+    "ru": "Будут бабки - скинусь.",
+    "uz": ""
+  },
+  {
+    "id": 146724,
+    "category": "items_weapons_vehicles",
+    "ru": "Читай записки ЦЕЛИКОМ.",
+    "uz": ""
+  },
+  {
+    "id": 146726,
+    "category": "items_weapons_vehicles",
+    "ru": "Прямо мороз по коже.",
+    "uz": ""
+  },
+  {
+    "id": 146735,
+    "category": "items_weapons_vehicles",
+    "ru": "Как ты, радость моя?",
+    "uz": ""
+  },
+  {
+    "id": 146736,
+    "category": "items_weapons_vehicles",
+    "ru": "Хочу уйти в лес и сдохнуть!",
+    "uz": ""
+  },
+  {
+    "id": 146737,
+    "category": "items_weapons_vehicles",
+    "ru": "Скоро буду. Привезу мороженку и фильмецы.",
+    "uz": ""
+  },
+  {
+    "id": 146742,
+    "category": "items_weapons_vehicles",
+    "ru": "Вау, устроим девичник!",
+    "uz": ""
+  },
+  {
+    "id": 146743,
+    "category": "items_weapons_vehicles",
+    "ru": "Что бы я без тебя делала? :)",
+    "uz": ""
+  },
+  {
+    "id": 146744,
+    "category": "items_weapons_vehicles",
+    "ru": "Вчера было офигенно. Может, еще разок?",
+    "uz": ""
+  },
+  {
+    "id": 146745,
+    "category": "items_weapons_vehicles",
+    "ru": "Фу, не!",
+    "uz": ""
+  },
+  {
+    "id": 146746,
+    "category": "items_weapons_vehicles",
+    "ru": "Почему-у-у?",
+    "uz": ""
+  },
+  {
+    "id": 146747,
+    "category": "items_weapons_vehicles",
+    "ru": "У тебя там пахнет прокисшим молоком.",
+    "uz": ""
+  },
+  {
+    "id": 146749,
+    "category": "items_weapons_vehicles",
+    "ru": "Кто вчера все пропустил? :)",
+    "uz": ""
+  },
+  {
+    "id": 146750,
+    "category": "items_weapons_vehicles",
+    "ru": "Норм бар?",
+    "uz": ""
+  },
+  {
+    "id": 146751,
+    "category": "items_weapons_vehicles",
+    "ru": "Там была девушка. ОТПАДНАЯ.",
+    "uz": ""
+  },
+  {
+    "id": 146772,
+    "category": "items_weapons_vehicles",
+    "ru": "Сколько феминисток надо, чтоб вкрутить лампочку?",
+    "uz": ""
+  },
+  {
+    "id": 146773,
+    "category": "items_weapons_vehicles",
+    "ru": "Не знаю.",
+    "uz": ""
+  },
+  {
+    "id": 146777,
+    "category": "items_weapons_vehicles",
+    "ru": "гляди в оба, а то порежу",
+    "uz": ""
+  },
+  {
+    "id": 146778,
+    "category": "items_weapons_vehicles",
+    "ru": "че?",
+    "uz": ""
+  },
+  {
+    "id": 146779,
+    "category": "items_weapons_vehicles",
+    "ru": "отвлечешься, а я ХРЯСЬ, ХРЯСЬ…",
+    "uz": ""
+  },
+  {
+    "id": 146780,
+    "category": "items_weapons_vehicles",
+    "ru": "что за хрень?",
+    "uz": ""
+  },
+  {
+    "id": 146781,
+    "category": "items_weapons_vehicles",
+    "ru": "стоп… черт, не туда пишу",
+    "uz": ""
+  },
+  {
+    "id": 146782,
+    "category": "items_weapons_vehicles",
+    "ru": "Так неловко, извините",
+    "uz": ""
+  },
+  {
+    "id": 146785,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты помнишь, где я буду на выходных?",
+    "uz": ""
+  },
+  {
+    "id": 146786,
+    "category": "items_weapons_vehicles",
+    "ru": "Блин! ДА!",
+    "uz": ""
+  },
+  {
+    "id": 146787,
+    "category": "items_weapons_vehicles",
+    "ru": "Сорьки. Это все моя девушка…",
+    "uz": ""
+  },
+  {
+    "id": 146788,
+    "category": "items_weapons_vehicles",
+    "ru": "Чокнутая?",
+    "uz": ""
+  },
+  {
+    "id": 146789,
+    "category": "items_weapons_vehicles",
+    "ru": "Она сказала, что хочет знать, как это",
+    "uz": ""
+  },
+  {
+    "id": 146790,
+    "category": "items_weapons_vehicles",
+    "ru": "По-моему, у меня непереносимость лактозы.",
+    "uz": ""
+  },
+  {
+    "id": 146791,
+    "category": "items_weapons_vehicles",
+    "ru": "Почему ты так думаешь?",
+    "uz": ""
+  },
+  {
+    "id": 146792,
+    "category": "items_weapons_vehicles",
+    "ru": "С одного молочного коктейля - час на толчке.",
+    "uz": ""
+  },
+  {
+    "id": 146793,
+    "category": "items_weapons_vehicles",
+    "ru": "Гыгы. Печаль.",
+    "uz": ""
+  },
+  {
+    "id": 147455,
+    "category": "items_weapons_vehicles",
+    "ru": "Мне в поезде пипиську показали(",
+    "uz": ""
+  },
+  {
+    "id": 147456,
+    "category": "items_weapons_vehicles",
+    "ru": "А ты чего?",
+    "uz": ""
+  },
+  {
+    "id": 147457,
+    "category": "items_weapons_vehicles",
+    "ru": "Пришлось хватать его за член и орать.",
+    "uz": ""
+  },
+  {
+    "id": 147461,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты чего трубку не берешь?",
+    "uz": ""
+  },
+  {
+    "id": 147462,
+    "category": "items_weapons_vehicles",
+    "ru": "Эм, потому что у меня дела?",
+    "uz": ""
+  },
+  {
+    "id": 147463,
+    "category": "items_weapons_vehicles",
+    "ru": "Перезвони мне. Надо поговорить.",
+    "uz": ""
+  },
+  {
+    "id": 147464,
+    "category": "items_weapons_vehicles",
+    "ru": "Твою ж мать…",
+    "uz": ""
+  },
+  {
+    "id": 147471,
+    "category": "items_weapons_vehicles",
+    "ru": "У меня ДЕЛА. Позвоню позже!",
+    "uz": ""
+  },
+  {
+    "id": 147472,
+    "category": "items_weapons_vehicles",
+    "ru": "Но…",
+    "uz": ""
+  },
+  {
+    "id": 147473,
+    "category": "items_weapons_vehicles",
+    "ru": "Ну курю я. И че?",
+    "uz": ""
+  },
+  {
+    "id": 147474,
+    "category": "items_weapons_vehicles",
+    "ru": "Нашли сенсацию!",
+    "uz": ""
+  },
+  {
+    "id": 147476,
+    "category": "items_weapons_vehicles",
+    "ru": "Короче, унция лежит в мусорке на заправке.",
+    "uz": ""
+  },
+  {
+    "id": 147477,
+    "category": "items_weapons_vehicles",
+    "ru": "Это мне в мусоре копаться? Фу!",
+    "uz": ""
+  },
+  {
+    "id": 147478,
+    "category": "items_weapons_vehicles",
+    "ru": "Добро пожаловать в мой мир.",
+    "uz": ""
+  },
+  {
+    "id": 147479,
+    "category": "items_weapons_vehicles",
+    "ru": "Может, не стоит об этом по смс?",
+    "uz": ""
+  },
+  {
+    "id": 147483,
+    "category": "items_weapons_vehicles",
+    "ru": "Ну, я его фотку давай всем показывать",
+    "uz": ""
+  },
+  {
+    "id": 147484,
+    "category": "items_weapons_vehicles",
+    "ru": "Чувак на говно изошел",
+    "uz": ""
+  },
+  {
+    "id": 147485,
+    "category": "items_weapons_vehicles",
+    "ru": "Говорит, без разрешения его фоткать нельзя",
+    "uz": ""
+  },
+  {
+    "id": 147490,
+    "category": "items_weapons_vehicles",
+    "ru": "и вот это вот все",
+    "uz": ""
+  },
+  {
+    "id": 147491,
+    "category": "items_weapons_vehicles",
+    "ru": "Стал наезжать, народ мобилы достал и снимает",
+    "uz": ""
+  },
+  {
+    "id": 147492,
+    "category": "items_weapons_vehicles",
+    "ru": "Он ваще в курсе, что такое ctOS?",
+    "uz": ""
+  },
+  {
+    "id": 147493,
+    "category": "items_weapons_vehicles",
+    "ru": "Со мной опять голоса разговаривают.",
+    "uz": ""
+  },
+  {
+    "id": 147494,
+    "category": "items_weapons_vehicles",
+    "ru": "Твою мать. Ну увеличь дозу.",
+    "uz": ""
+  },
+  {
+    "id": 147495,
+    "category": "items_weapons_vehicles",
+    "ru": "Ну не знаю. Они на серьезные темы затирают.",
+    "uz": ""
+  },
+  {
+    "id": 147500,
+    "category": "items_weapons_vehicles",
+    "ru": "Он опять за свое!",
+    "uz": ""
+  },
+  {
+    "id": 147501,
+    "category": "items_weapons_vehicles",
+    "ru": "И чего ты от меня хочешь?",
+    "uz": ""
+  },
+  {
+    "id": 147502,
+    "category": "items_weapons_vehicles",
+    "ru": "Отмудохай этого извращенца!",
+    "uz": ""
+  },
+  {
+    "id": 147503,
+    "category": "items_weapons_vehicles",
+    "ru": "Он опять на детишек пырится.",
+    "uz": ""
+  },
+  {
+    "id": 147506,
+    "category": "items_weapons_vehicles",
+    "ru": "Вот и все.",
+    "uz": ""
+  },
+  {
+    "id": 147507,
+    "category": "items_weapons_vehicles",
+    "ru": "И как ощущения?",
+    "uz": ""
+  },
+  {
+    "id": 147508,
+    "category": "items_weapons_vehicles",
+    "ru": "Ощущения, что зря я это.",
+    "uz": ""
+  },
+  {
+    "id": 147509,
+    "category": "items_weapons_vehicles",
+    "ru": "Все к лучшему. Помни, что сказал врач.",
+    "uz": ""
+  },
+  {
+    "id": 147510,
+    "category": "items_weapons_vehicles",
+    "ru": "Когда еще будет шанс завести ребенка?",
+    "uz": ""
+  },
+  {
+    "id": 147511,
+    "category": "items_weapons_vehicles",
+    "ru": "Заберешь меня?",
+    "uz": ""
+  },
+  {
+    "id": 147512,
+    "category": "items_weapons_vehicles",
+    "ru": "Прив, детка. Хочу сказать, что ты - мое счастье.",
+    "uz": ""
+  },
+  {
+    "id": 147513,
+    "category": "items_weapons_vehicles",
+    "ru": "Как романтично! Я тебя люблю!",
+    "uz": ""
+  },
+  {
+    "id": 147514,
+    "category": "items_weapons_vehicles",
+    "ru": "Обожаю тебя. Надеюсь, простишь за то, что я сейчас сделаю.",
+    "uz": ""
+  },
+  {
+    "id": 147515,
+    "category": "items_weapons_vehicles",
+    "ru": "Что ты имеешь в виду?",
+    "uz": ""
+  },
+  {
+    "id": 147516,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты там?",
+    "uz": ""
+  },
+  {
+    "id": 147517,
+    "category": "items_weapons_vehicles",
+    "ru": "ЭЙ???",
+    "uz": ""
+  },
+  {
+    "id": 147519,
+    "category": "items_weapons_vehicles",
+    "ru": "Вечером играем! :D",
+    "uz": ""
+  },
+  {
+    "id": 147520,
+    "category": "items_weapons_vehicles",
+    "ru": "А не староваты мы для настолок?",
+    "uz": ""
+  },
+  {
+    "id": 147521,
+    "category": "items_weapons_vehicles",
+    "ru": "НЕТ! НИКОГДА! Что ты вообще несешь?",
+    "uz": ""
+  },
+  {
+    "id": 147522,
+    "category": "items_weapons_vehicles",
+    "ru": "Да я как бы не особо настолки люблю.",
+    "uz": ""
+  },
+  {
+    "id": 147523,
+    "category": "items_weapons_vehicles",
+    "ru": "В смысле… Это все был обман?",
+    "uz": ""
+  },
+  {
+    "id": 147525,
+    "category": "items_weapons_vehicles",
+    "ru": "Привет… Плохие новости.",
+    "uz": ""
+  },
+  {
+    "id": 147526,
+    "category": "items_weapons_vehicles",
+    "ru": "Не пиши мне, сколько раз говорить!",
+    "uz": ""
+  },
+  {
+    "id": 147527,
+    "category": "items_weapons_vehicles",
+    "ru": "Я знаю, но… Мне тут анализы пришли.",
+    "uz": ""
+  },
+  {
+    "id": 147528,
+    "category": "items_weapons_vehicles",
+    "ru": "На что?",
+    "uz": ""
+  },
+  {
+    "id": 147529,
+    "category": "items_weapons_vehicles",
+    "ru": "В общем, тоже проверься.",
+    "uz": ""
+  },
+  {
+    "id": 147537,
+    "category": "items_weapons_vehicles",
+    "ru": "И?",
+    "uz": ""
+  },
+  {
+    "id": 147538,
+    "category": "items_weapons_vehicles",
+    "ru": "Не-не-не. Зря ты так.",
+    "uz": ""
+  },
+  {
+    "id": 147539,
+    "category": "items_weapons_vehicles",
+    "ru": "Слушай, мюзиклы - это миф.",
+    "uz": ""
+  },
+  {
+    "id": 147541,
+    "category": "items_weapons_vehicles",
+    "ru": "Без репетиций! Откуда им знать, что делать?",
+    "uz": ""
+  },
+  {
+    "id": 147563,
+    "category": "items_weapons_vehicles",
+    "ru": "Я зря слов не трачу.",
+    "uz": ""
+  },
+  {
+    "id": 147564,
+    "category": "items_weapons_vehicles",
+    "ru": "Я тоже.",
+    "uz": ""
+  },
+  {
+    "id": 147583,
+    "category": "items_weapons_vehicles",
+    "ru": "Как устроены мюзиклы?",
+    "uz": ""
+  },
+  {
+    "id": 147584,
+    "category": "items_weapons_vehicles",
+    "ru": "Ты о чем?",
+    "uz": ""
+  },
+  {
+    "id": 147585,
+    "category": "items_weapons_vehicles",
+    "ru": "Каждый поет и танцует без подготовки.",
+    "uz": ""
+  },
+  {
+    "id": 148329,
+    "category": "items_weapons_vehicles",
+    "ru": "Есть только один способ все решить.",
+    "uz": ""
+  },
+  {
+    "id": 148330,
+    "category": "items_weapons_vehicles",
+    "ru": "Танц-батл?",
+    "uz": ""
+  },
+  {
+    "id": 148331,
+    "category": "items_weapons_vehicles",
+    "ru": "В точку. Приводи своих, а я своих.",
+    "uz": ""
+  },
+  {
+    "id": 148342,
+    "category": "items_weapons_vehicles",
+    "ru": "Ну пожааалуйста?",
+    "uz": ""
+  },
+  {
+    "id": 148343,
+    "category": "items_weapons_vehicles",
+    "ru": "Говорю же - НЕТ!",
+    "uz": ""
+  },
+  {
+    "id": 148943,
+    "category": "items_weapons_vehicles",
+    "ru": "R-2000",
+    "uz": ""
+  }
+]

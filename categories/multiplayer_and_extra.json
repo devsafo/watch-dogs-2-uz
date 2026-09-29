@@ -1,0 +1,368 @@
+[
+  {
+    "id": 20000015,
+    "category": "multiplayer_and_extra",
+    "ru": "Бесплатно",
+    "uz": ""
+  },
+  {
+    "id": 20000016,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА ПРОВАЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000017,
+    "category": "multiplayer_and_extra",
+    "ru": "Полицейские скачали данные",
+    "uz": ""
+  },
+  {
+    "id": 20000018,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАНИЕ ПРОВАЛЕНО",
+    "uz": ""
+  },
+  {
+    "id": 20000019,
+    "category": "multiplayer_and_extra",
+    "ru": "Полицейские загрузили данные",
+    "uz": ""
+  },
+  {
+    "id": 20000020,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАНИЕ ВЫПОЛНЕНО",
+    "uz": ""
+  },
+  {
+    "id": 20000022,
+    "category": "multiplayer_and_extra",
+    "ru": "ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА",
+    "uz": ""
+  },
+  {
+    "id": 20000023,
+    "category": "multiplayer_and_extra",
+    "ru": "Защитите заложника из DedSec",
+    "uz": ""
+  },
+  {
+    "id": 20000024,
+    "category": "multiplayer_and_extra",
+    "ru": "ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА ОБНОВЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000025,
+    "category": "multiplayer_and_extra",
+    "ru": "Защитите данные",
+    "uz": ""
+  },
+  {
+    "id": 20000026,
+    "category": "multiplayer_and_extra",
+    "ru": "ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА ВЫПОЛНЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000027,
+    "category": "multiplayer_and_extra",
+    "ru": "Заложник из DedSec защищен",
+    "uz": ""
+  },
+  {
+    "id": 20000028,
+    "category": "multiplayer_and_extra",
+    "ru": "ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА ВЫПОЛНЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000029,
+    "category": "multiplayer_and_extra",
+    "ru": "Данные защищены",
+    "uz": ""
+  },
+  {
+    "id": 20000030,
+    "category": "multiplayer_and_extra",
+    "ru": "ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА ПРОВАЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000031,
+    "category": "multiplayer_and_extra",
+    "ru": "Защита заложника из DedSec провалена",
+    "uz": ""
+  },
+  {
+    "id": 20000032,
+    "category": "multiplayer_and_extra",
+    "ru": "ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА ПРОВАЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000033,
+    "category": "multiplayer_and_extra",
+    "ru": "Защита данных провалена",
+    "uz": ""
+  },
+  {
+    "id": 20000189,
+    "category": "multiplayer_and_extra",
+    "ru": "Заберите клиента",
+    "uz": ""
+  },
+  {
+    "id": 20000190,
+    "category": "multiplayer_and_extra",
+    "ru": "Заберите клиентов",
+    "uz": ""
+  },
+  {
+    "id": 20000191,
+    "category": "multiplayer_and_extra",
+    "ru": "Отвезите клиента к месту назначения",
+    "uz": ""
+  },
+  {
+    "id": 20000192,
+    "category": "multiplayer_and_extra",
+    "ru": "Driver: San Francisco",
+    "uz": ""
+  },
+  {
+    "id": 20000193,
+    "category": "multiplayer_and_extra",
+    "ru": "Доберитесь до места",
+    "uz": ""
+  },
+  {
+    "id": 20000194,
+    "category": "multiplayer_and_extra",
+    "ru": "Скачайте _нечто_",
+    "uz": ""
+  },
+  {
+    "id": 20000195,
+    "category": "multiplayer_and_extra",
+    "ru": "Задание со свободным подходом",
+    "uz": ""
+  },
+  {
+    "id": 20000196,
+    "category": "multiplayer_and_extra",
+    "ru": "АРЕНА СВОБОДНОГО ДОСТУПА",
+    "uz": ""
+  },
+  {
+    "id": 20000197,
+    "category": "multiplayer_and_extra",
+    "ru": "Грузовой транспорт HAUM",
+    "uz": ""
+  },
+  {
+    "id": 20000198,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА",
+    "uz": ""
+  },
+  {
+    "id": 20000199,
+    "category": "multiplayer_and_extra",
+    "ru": "Доберитесь до места погрузки",
+    "uz": ""
+  },
+  {
+    "id": 20000200,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА",
+    "uz": ""
+  },
+  {
+    "id": 20000201,
+    "category": "multiplayer_and_extra",
+    "ru": "Найдите груз HAUM",
+    "uz": ""
+  },
+  {
+    "id": 20000202,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА",
+    "uz": ""
+  },
+  {
+    "id": 20000203,
+    "category": "multiplayer_and_extra",
+    "ru": "Добудьте одно из устройств",
+    "uz": ""
+  },
+  {
+    "id": 20000204,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА ОБНОВЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000205,
+    "category": "multiplayer_and_extra",
+    "ru": "Груз скоро окажется вне пределов области",
+    "uz": ""
+  },
+  {
+    "id": 20000206,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА ПРОВАЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000207,
+    "category": "multiplayer_and_extra",
+    "ru": "Вы упустили фургон",
+    "uz": ""
+  },
+  {
+    "id": 20000208,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАНИЕ ПРОВАЛЕНО",
+    "uz": ""
+  },
+  {
+    "id": 20000209,
+    "category": "multiplayer_and_extra",
+    "ru": "Вы упустили груз HAUM",
+    "uz": ""
+  },
+  {
+    "id": 20000210,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАНИЕ ВЫПОЛНЕНО",
+    "uz": ""
+  },
+  {
+    "id": 20000211,
+    "category": "multiplayer_and_extra",
+    "ru": "ВОЗМОЖНОСТЬ ДОСТАВКИ",
+    "uz": ""
+  },
+  {
+    "id": 20000212,
+    "category": "multiplayer_and_extra",
+    "ru": "Заберите груз HAUM",
+    "uz": ""
+  },
+  {
+    "id": 20000223,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА ОБНОВЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000224,
+    "category": "multiplayer_and_extra",
+    "ru": "Скройтесь от преследователей",
+    "uz": ""
+  },
+  {
+    "id": 20000277,
+    "category": "multiplayer_and_extra",
+    "ru": "Груз",
+    "uz": ""
+  },
+  {
+    "id": 20000279,
+    "category": "multiplayer_and_extra",
+    "ru": "Можно доставить или уничтожить",
+    "uz": ""
+  },
+  {
+    "id": 20000282,
+    "category": "multiplayer_and_extra",
+    "ru": "ЗАДАЧА ОБНОВЛЕНА",
+    "uz": ""
+  },
+  {
+    "id": 20000283,
+    "category": "multiplayer_and_extra",
+    "ru": "Водитель пытается скрыться",
+    "uz": ""
+  },
+  {
+    "id": 20000316,
+    "category": "multiplayer_and_extra",
+    "ru": "Добавить граффити",
+    "uz": ""
+  },
+  {
+    "id": 20000323,
+    "category": "multiplayer_and_extra",
+    "ru": "Гораций",
+    "uz": ""
+  },
+  {
+    "id": 20000324,
+    "category": "multiplayer_and_extra",
+    "ru": "Флорес",
+    "uz": ""
+  },
+  {
+    "id": 20000325,
+    "category": "multiplayer_and_extra",
+    "ru": "Программист Nudle",
+    "uz": ""
+  },
+  {
+    "id": 20000326,
+    "category": "multiplayer_and_extra",
+    "ru": "Состоял в T13 и DedSec",
+    "uz": ""
+  },
+  {
+    "id": 20000327,
+    "category": "multiplayer_and_extra",
+    "ru": "Хранит важные данные на ноутбуке",
+    "uz": ""
+  },
+  {
+    "id": 20000337,
+    "category": "multiplayer_and_extra",
+    "ru": "Партия наркотиков Тескас",
+    "uz": ""
+  },
+  {
+    "id": 20000339,
+    "category": "multiplayer_and_extra",
+    "ru": "Украсть или уничтожить наркотики",
+    "uz": ""
+  },
+  {
+    "id": 20000349,
+    "category": "multiplayer_and_extra",
+    "ru": "[PC_SHOOT] СНИМОК",
+    "uz": ""
+  },
+  {
+    "id": 20000475,
+    "category": "multiplayer_and_extra",
+    "ru": "Вышибала на полставки",
+    "uz": ""
+  },
+  {
+    "id": 20000476,
+    "category": "multiplayer_and_extra",
+    "ru": "Носит ключ от комнат с оборудованием",
+    "uz": ""
+  },
+  {
+    "id": 20000516,
+    "category": "multiplayer_and_extra",
+    "ru": "Ноутбук Горация",
+    "uz": ""
+  },
+  {
+    "id": 20000518,
+    "category": "multiplayer_and_extra",
+    "ru": "Взлом: доступ к системе предсказания преступлений",
+    "uz": ""
+  }
+]

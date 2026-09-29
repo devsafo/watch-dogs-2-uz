@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C# and modding tools
+tools/
+bin/
+obj/
+*.loc
+*.loc.txt
+*.wem
+*.bnk
+*.dpax
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
