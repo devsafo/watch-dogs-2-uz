@@ -1,6 +1,7 @@
 import os
 import io
 import json
+import asyncio
 import logging
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, BackgroundTasks
@@ -10,7 +11,7 @@ from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 from typing import Optional
 
-from database import init_db, seed_data_if_empty, get_stats, get_connection
+from database import init_db, seed_data_if_empty, get_stats, get_connection, get_setting
 from translator import manager
 
 logging.basicConfig(level=logging.INFO)
@@ -28,11 +29,18 @@ async def lifespan(app: FastAPI):
         seed_path = os.path.join(BASE_DIR, "watch_dogs_2_uzbek_template.json")
         if os.path.exists(seed_path):
             seed_data_if_empty(seed_path)
+            
+        # Check auto-resume state from database
+        saved_state = get_setting("translation_state")
+        saved_mode = get_setting("translation_mode", "full")
+        if saved_state == "running":
+            logger.info("Auto-resume: Active translation detected in database. Resuming 5 workers...")
+            asyncio.create_task(manager.start(mode=saved_mode, limit=0))
     except Exception as e:
         logger.error(f"Error during startup DB setup: {e}")
     yield
     # Shutdown
-    await manager.stop()
+    await manager.stop(is_user_action=False)
 
 app = FastAPI(title="Watch Dogs 2 Uzbek Translator", lifespan=lifespan)
 
@@ -106,7 +114,7 @@ async def api_start(req: StartRequest):
 
 @app.post("/api/stop")
 async def api_stop():
-    await manager.stop()
+    await manager.stop(is_user_action=True)
     return {"status": "stopped"}
 
 @app.post("/api/settings")

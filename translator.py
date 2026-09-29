@@ -5,13 +5,15 @@ import asyncio
 import logging
 import aiohttp
 from datetime import datetime
-from database import get_connection
+import aiohttp
+from database import get_connection, set_setting, get_setting
 
 logger = logging.getLogger("translator")
 
 # Configuration
 DEFAULT_BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/")
 DEFAULT_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
+SERVICE_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_URL", "https://watch-dogs-2-uz-translator.onrender.com").rstrip("/")
 
 # Keys can be specified as DEEPSEEK_API_KEYS="key1,key2,key3,key4,key5"
 # or individual DEEPSEEK_API_KEY_1..5 or single DEEPSEEK_API_KEY
@@ -83,6 +85,8 @@ class TranslationManager:
         self.mode = mode
         self.test_limit = limit
         self.translated_in_session = 0
+        set_setting("translation_state", "running")
+        set_setting("translation_mode", mode)
         self.add_log(f"Tarjima boshlandi. Rejim: {mode.upper()}, Limit: {limit if mode == 'test' else 'Cheksiz'}")
 
         # Reset any stuck 'in_progress' rows back to 'pending'
@@ -97,12 +101,32 @@ class TranslationManager:
             task = asyncio.create_task(self._worker_loop(worker_id))
             self.active_tasks.append(task)
 
-    async def stop(self):
+        # Launch keep-alive pinger task to prevent Render free-tier from idling
+        self.active_tasks.append(asyncio.create_task(self._keep_alive_pinger()))
+
+    async def stop(self, is_user_action: bool = True):
         self.is_running = False
+        if is_user_action:
+            set_setting("translation_state", "stopped")
         for task in self.active_tasks:
             task.cancel()
         self.active_tasks = []
         self.add_log("Barcha workerlar to'xtatildi.")
+
+    async def _keep_alive_pinger(self):
+        """Render Free serverini 15 daqiqalik uyquga ketishidan saqlash uchun 7 daqiqada bir self-ping"""
+        ping_url = f"{SERVICE_EXTERNAL_URL}/api/stats"
+        self.add_log(f"Keep-Alive tizimi faollashtirildi (Ping URL: {ping_url})")
+        while self.is_running:
+            try:
+                await asyncio.sleep(420) # 7 daqiqa
+                if not self.is_running:
+                    break
+                async with aiohttp.ClientSession() as session:
+                    async with session.get(ping_url, timeout=aiohttp.ClientTimeout(total=20)) as resp:
+                        logger.info(f"Keep-alive self-ping yuborildi: HTTP {resp.status}")
+            except Exception as e:
+                logger.warning(f"Keep-alive ping xatosi: {e}")
 
     async def _worker_loop(self, worker_id: int):
         self.add_log(f"Worker #{worker_id} ishga tushdi.")
@@ -113,12 +137,23 @@ class TranslationManager:
             if self.mode == "test" and self.translated_in_session >= self.test_limit:
                 self.add_log(f"Worker #{worker_id}: Test limiti ({self.test_limit}) bajarildi!")
                 self.is_running = False
+                set_setting("translation_state", "stopped")
                 break
 
             # Fetch batch of pending rows
             batch = self._fetch_batch(worker_id, self.batch_size)
             if not batch:
-                self.add_log(f"Worker #{worker_id}: Bajariladigan yangi matnlar topilmadi.")
+                # Check if all strings are completely translated
+                with get_connection() as conn:
+                    with conn.cursor() as cur:
+                        cur.execute("SELECT COUNT(*) FROM translations WHERE status = 'pending';")
+                        pending_count = cur.fetchone()[0]
+                if pending_count == 0:
+                    self.add_log(f"Worker #{worker_id}: Barcha matnlar 100% tarjima qilib bo'lindi!")
+                    self.is_running = False
+                    set_setting("translation_state", "finished")
+                    break
+                self.add_log(f"Worker #{worker_id}: Bajariladigan yangi matnlar kutilmoqda...")
                 await asyncio.sleep(5)
                 continue
 

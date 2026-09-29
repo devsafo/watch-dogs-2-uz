@@ -128,3 +128,27 @@ def get_stats():
                 for r in cur.fetchall()
             ]
             return stats
+
+def set_setting(key: str, value: str):
+    """Sozlamani yoki holatni bazada saqlash"""
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                INSERT INTO settings (key, value, updated_at)
+                VALUES (%s, %s, NOW())
+                ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value, updated_at = NOW();
+            """, (key, value))
+            conn.commit()
+
+def get_setting(key: str, default=None):
+    """Bazadan sozlama yoki holatni o'qish"""
+    try:
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("SELECT value FROM settings WHERE key = %s;", (key,))
+                row = cur.fetchone()
+                return row[0] if row else default
+    except Exception as e:
+        logger.error(f"Error reading setting {key}: {e}")
+        return default
+
