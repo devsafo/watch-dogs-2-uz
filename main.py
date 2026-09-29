@@ -16,13 +16,16 @@ from translator import manager
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("main")
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
     logger.info("Initializing database and verifying tables...")
     try:
         init_db()
-        seed_path = os.path.join(os.path.dirname(__file__), "watch_dogs_2_uzbek_template.json")
+        seed_path = os.path.join(BASE_DIR, "watch_dogs_2_uzbek_template.json")
         if os.path.exists(seed_path):
             seed_data_if_empty(seed_path)
     except Exception as e:
@@ -33,8 +36,8 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Watch Dogs 2 Uzbek Translator", lifespan=lifespan)
 
-os.makedirs("templates", exist_ok=True)
-templates = Jinja2Templates(directory="templates")
+os.makedirs(TEMPLATES_DIR, exist_ok=True)
+templates = Jinja2Templates(directory=TEMPLATES_DIR)
 
 class StartRequest(BaseModel):
     mode: str = "test" # "test" or "full"
@@ -48,7 +51,7 @@ class SettingsRequest(BaseModel):
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse(request=request, name="index.html")
 
 @app.get("/api/stats")
 async def api_stats():
