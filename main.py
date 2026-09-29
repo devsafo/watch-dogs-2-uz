@@ -108,14 +108,14 @@ async def api_translations(status: Optional[str] = None, limit: int = 50, offset
                     SELECT id, category, ru, uz, status, worker_id, updated_at 
                     FROM translations 
                     WHERE status = %s 
-                    ORDER BY id ASC 
+                    ORDER BY updated_at DESC NULLS LAST, id DESC 
                     LIMIT %s OFFSET %s;
                 """, (status, limit, offset))
             else:
                 cur.execute("""
                     SELECT id, category, ru, uz, status, worker_id, updated_at 
                     FROM translations 
-                    ORDER BY id ASC 
+                    ORDER BY updated_at DESC NULLS LAST, id DESC 
                     LIMIT %s OFFSET %s;
                 """, (limit, offset))
             

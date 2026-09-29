@@ -33,6 +33,7 @@ def init_db():
 
                 CREATE INDEX IF NOT EXISTS idx_translations_status ON translations(status);
                 CREATE INDEX IF NOT EXISTS idx_translations_category ON translations(category);
+                CREATE INDEX IF NOT EXISTS idx_translations_updated_at ON translations(updated_at DESC);
                 
                 CREATE TABLE IF NOT EXISTS settings (
                     key VARCHAR(64) PRIMARY KEY,
